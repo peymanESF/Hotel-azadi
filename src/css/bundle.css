@@ -54,7 +54,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: .25rem;
-    text-align: left
+    text-align: right
 }
 
 .dselect-wrapper .form-select.dselect-clearable {
@@ -686,7 +686,7 @@ span.flatpickr-weekday {
 .dayContainer {
     padding: 0;
     outline: 0;
-    text-align: left;
+    text-align: right;
     width: auto;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -1165,7 +1165,7 @@ span.flatpickr-weekday {
 
 .gslide-inline {
     background: #fff;
-    text-align: left;
+    text-align: right;
     max-height: calc(100vh - 40px);
     overflow: auto;
     margin: auto
@@ -2523,7 +2523,7 @@ a.plyr__control {
     font-size: var(--plyr-font-size-base,15px);
     position: absolute;
     right: -3px;
-    text-align: left;
+    text-align: right;
     white-space: nowrap;
     z-index: 3
 }
@@ -4681,8 +4681,8 @@ button.swiper-pagination-bullet {
 
 @font-face {
     font-family: icons;
-    src: url(fonts/hotel-icons.eot);
-    src: url(fonts/hotel-icons.eot#iefix) format("embedded-opentype"),url(fonts/hotel-icons.woff) format("woff"),url(fonts/hotel-icons.ttf) format("truetype"),url(fonts/hotel-icons.svg#icons) format("svg");
+    src: url(../../fonts/hotel-icons.eot);
+    src: url(../fonts/hotel-icons.eot#iefix) format("embedded-opentype"),url(../fonts/hotel-icons.woff) format("woff"),url(../fonts/hotel-icons.ttf) format("truetype"),url(../fonts/hotel-icons.svg#icons) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -9870,8 +9870,9 @@ button.swiper-pagination-bullet {
 .hicon-zoom-bold:before {
     content: "\F610"
 }
-
+/*** declare branding color ***/
 :root,[data-bs-theme=light] {
+    --first-color: #91346b;
     --bs-blue: #366DC0;
     --bs-indigo: #633A94;
     --bs-purple: #504EAB;
@@ -9937,7 +9938,7 @@ button.swiper-pagination-bullet {
     --bs-dark-border-subtle: #adadad;
     --bs-white-rgb: 255,255,255;
     --bs-black-rgb: 0,0,0;
-    --bs-font-sans-serif: "Jost",sans-serif;
+    --bs-font-sans-serif: "Abar VF",IranSans;
     --bs-font-monospace: "Red Hat Mono",monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
     --bs-body-font-family: var(--bs-font-sans-serif);
@@ -10287,7 +10288,7 @@ caption {
     padding-top: .75rem;
     padding-bottom: .75rem;
     color: var(--bs-secondary-color);
-    text-align: left
+    text-align: right
 }
 
 th {
@@ -15481,7 +15482,7 @@ textarea.form-control-lg {
     margin: 0;
     font-size: var(--bs-dropdown-font-size);
     color: var(--bs-dropdown-color);
-    text-align: left;
+    text-align: right;
     list-style: none;
     background-color: var(--bs-dropdown-bg);
     background-clip: padding-box;
@@ -15490,7 +15491,7 @@ textarea.form-control-lg {
 
 .dropdown-menu[data-bs-popper] {
     top: 100%;
-    left: 0;
+    right: 0;
     margin-top: var(--bs-dropdown-spacer)
 }
 
@@ -16675,7 +16676,7 @@ textarea.form-control-lg {
     padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
     font-size: 1.125rem;
     color: var(--bs-accordion-btn-color);
-    text-align: left;
+    text-align: right;
     background-color: var(--bs-accordion-btn-bg);
     border: 0;
     overflow-anchor: none;
@@ -22777,7 +22778,7 @@ textarea.form-control-lg {
 }
 
 .text-start {
-    text-align: left!important
+    text-align: right!important
 }
 
 .text-end {
@@ -27082,7 +27083,7 @@ textarea.form-control-lg {
     }
 
     .text-sm-start {
-        text-align: left!important
+        text-align: right!important
     }
 
     .text-sm-end {
@@ -30372,7 +30373,7 @@ textarea.form-control-lg {
     }
 
     .text-md-start {
-        text-align: left!important
+        text-align: right!important
     }
 
     .text-md-end {
@@ -33662,7 +33663,7 @@ textarea.form-control-lg {
     }
 
     .text-lg-start {
-        text-align: left!important
+        text-align: right!important
     }
 
     .text-lg-end {
@@ -33805,7 +33806,7 @@ textarea.form-control-lg {
     }
 
     .justify-content-xl-start {
-        justify-content: flex-start!important
+        justify-content: flex-start!important;
     }
 
     .justify-content-xl-end {
@@ -34549,7 +34550,7 @@ textarea.form-control-lg {
     }
 
     .mt-xl-8 {
-        margin-top: 1.75rem!important
+        margin-top: 1.75rem!important;
     }
 
     .mt-xl-9 {
@@ -36331,7 +36332,7 @@ textarea.form-control-lg {
     }
 
     .ps-xl-19 {
-        padding-right: 7rem!important
+        padding-right: 7rem!important;
     }
 
     .ps-xl-20 {
@@ -36952,7 +36953,7 @@ textarea.form-control-lg {
     }
 
     .text-xl-start {
-        text-align: left!important
+        text-align: right!important
     }
 
     .text-xl-end {
@@ -40242,7 +40243,7 @@ textarea.form-control-lg {
     }
 
     .text-xxl-start {
-        text-align: left!important
+        text-align: right!important
     }
 
     .text-xxl-end {
@@ -40403,7 +40404,7 @@ textarea.form-control-lg {
 #header .header-navbar .dropdown-menu:before {
     content: "";
     position: absolute;
-    left: 20px;
+    right: 20px;
     top: -18px;
     width: 0;
     height: 0;
@@ -40520,7 +40521,7 @@ textarea.form-control-lg {
 
 @media (min-width: 1200px) {
     #header .header-navbar .navbar-expand-xl .navbar-nav-left,#header .header-navbar .navbar-expand-xl .navbar-nav-right {
-        flex:1 0 50%
+        flex: 1 0 40%;
     }
 
     #header .header-navbar .navbar-expand-xl .navbar-nav>.nav-item>.nav-link {
@@ -40546,7 +40547,7 @@ textarea.form-control-lg {
     }
 
     #header .header-navbar .navbar-expand-xl .dropdown-menu {
-        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
     }
 }
 
@@ -41016,7 +41017,7 @@ textarea.form-control-lg {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 108.9 103.6'%3E%3Cg data-name='Layer 2'%3E%3Cpath fill='%23e9ecef' d='m108.9 39.6-37.6-5.5L54.4 0 37.6 34.1 0 39.6l27.2 26.5-6.4 37.5 33.6-17.7 33.7 17.7-6.4-37.5 27.2-26.5z' data-name='Layer 1'/%3E%3C/g%3E%3C/svg%3E");
     background-position: 0 0;
     background-repeat: repeat-x;
-    text-align: left
+    text-align: right
 }
 
 .star-rate-view.star-rate-size-xs {
