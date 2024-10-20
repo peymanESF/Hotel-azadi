@@ -531,71 +531,6 @@ ul.nav-bar-tool {
   direction: ltr;
 }
 
-/*** news section ***/
-#newsSection {
-  margin-top: 30px;
-  padding: 10px;
-}
-#newsSection .nav-link.active {
-  background: var(--first-color);
-  color: white;
-}
-#newsSection .nav-tabs {
-  border-color: var(--first-color);
-}
-.newsImg img {
-  width: 100%;
-}
-.newsItem {
-  cursor: pointer;
-  text-decoration: none;
-  padding: 15px;
-}
-.newsText div {
-  color: black;
-  padding: 2px;
-}
-.newsText .newsTitle {
-  display: -webkit-box !important;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
-  overflow: hidden;
-  font-size: 18px;
-  font-weight: bold;
-}
-.newsText .newsDate:before {
-  font-family: "Font Awesome 5 Pro";
-  content: "\f073";
-}
-.newsText .newsDate {
-}
-.newsText .newsAbstract {
-  display: -webkit-box !important;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  overflow: hidden;
-}
-.newsImg img {
-  border-radius: 15px;
-}
-.newsItem {
-  background: #ebeaea;
-  border-radius: 15px;
-  margin-top: 10px;
-}
-.divArchive {
-  width: 100%;
-  margin-top: 10px;
-  margin-left: 20px;
-  text-align: left;
-}
-.archiveNews:before {
-  font-family: "Font Awesome 5 Pro";
-  content: "\f187";
-}
-.archiveNews {
-  text-decoration: none;
-}
 /*** contact us ***/
 
 #contact-us-section {
@@ -838,3 +773,27 @@ ul.nav-bar-tool {
   padding: 10px 26px;
 }
 /** End Style About Us Section **/
+/** start style Rooms of Hotel **/
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:300px;
+}
+
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/** end style rooms of hotel **/
