@@ -10,9 +10,9 @@
 	<!-- fontawesome -->
 	<link rel='stylesheet' type='text/css' href='fonts/font-awesome/fontAwesome-Pro-5.12.0/min/all.min.css' />
 
+
 	<!-- load JQuey -->
-	<script src="js/jquery.min.js" />
-	</script>
+	<script src="js/jquery.min.js"></script>
 
 	<!-- owl carousel -->
 	<link rel="stylesheet" href="lib/owlcarousel/assets/owl.carousel.min.css">
@@ -22,8 +22,7 @@
 	<!-- Latest compiled JavaScript -->
 
 
-	<!-- load custom theme js -->
-	<script src="js/theme.js"></script>
+
 
 
 
@@ -36,7 +35,7 @@
 			<div class="w-100">
 				<!-- Brand -->
 				<a class="navbar-brand bg-primary d-inline-flex align-items-center position-absolute top-0 start-50 translate-middle-x z-1"
-					id="brandHeader" href="./index.html" data-bs-theme="dark">
+					id="brandHeader" href="./index.html">
 					<div class="text-center text-body-emphasis h-sub-font text-uppercase">
 						<img class="brand-img" src="img/logo.png" alt="azadi hotel logo">
 						<div class="brand-text">
@@ -210,57 +209,94 @@
 		</div>
 	</div>
 
+	<!--start Online reservation system -->
+	<div class="container px-0 flexContainerCenter underSliderContainer">
+		<div class="reserveContainer">
 
+			<div class="date-info">تاریخ ورود</div>
+			<input type="text" id="datepicker" class="date-picker" readonly>
 
-	<div id="eServiceSection" class="container-fluid px-0">
+			<!-- بخش ورودی بزرگسالان و کودکان -->
+			<div class="guest-info">
+				<strong>مهمان</strong>
+				<label for="adults">بزرگسال</label>
+				<input type="number" id="adults" name="adults" min="1" value="1">
+
+				<label for="children">کودک</label>
+				<input type="number" id="children" name="children" min="0" value="0">
+			</div>
+			<button class="button">رزرو آنلاین</button>
+		</div>
+	</div>
+	<!--end Online reservation system-->
+	<!-- start about us section-->
+	<div id="aboutUsSection" class="container-fluid px-0">
 		<div class="container px-0">
-			<div class="d-flex flex-wrap justify-content-center align-items-center">
-				<div class="eServiceItem d-flex flex-wrap justify-content-center align-items-center">
-					<a class="item" title="درخواست انشعاب آب" target="_blank" href="#">
-						<img src="img/icons/ensheab.png" class="serviceImage" title="درخواست انشعاب آب"
-							alt="درخواست انشعاب آب">
-						<p class="serviceTitle">درخواست انشعاب آب</p>
-					</a>
+			<div class="d-flex flex-column justify-content-center align-items-center">
+				<div class="flashDown">
+					<i class="fas fa-caret-down fa-lg"></i>
 				</div>
-				<div class="eServiceItem d-flex flex-wrap justify-content-center align-items-center">
-					<a class="item" title="پرداخت الکترونیکی قبوض" target="_blank" href="#">
-						<img src="img/icons/ghabz.png" class="serviceImage" title="پرداخت الکترونیکی قبوض"
-							alt="پرداخت الکترونیکی قبوض">
-						<p class="serviceTitle">پرداخت الکترونیکی قبوض</p>
-					</a>
+				<div class="mainContainer">
+					<div class="shoar">
+						انتخاب نخست بلند پایگان
+					</div>
+					<div class="hotelName">
+						هتل پارسیان آزادی
+					</div>
+					<div class="fiveStar">
+						<img src="img/5stars.png" alt="5startRank">
+					</div>
+					<div class="desc">
+						هدف هتل پارسیان آزادی تهران از آغاز (زمانی که در زنجیره هتل‌های هایت قرار داشت) تاکنون، ارائه
+						خدمات پنج‌ستاره به ‏میهمانانی است که می‌خواهند چنین خدماتی را تجربه کرده و از لذت احترام سنتی
+						ایرانیان به میهمان برخوردار شوند. بنابراین به ‏محض اینکه به عنوان میهمان، ما را سرافراز نمائید
+						برای ما در جایگاه رفیع پنج‌ستاره بودن قرار می گیرید و این هتل تمام توان ‏خود را به کار خواهد
+						گرفت تا لبخند رضایت را بر لبانتان بنشاند.
+					</div>
+					<div class="d-flex align-items-center facilities">
+						<div class="Item">
+							<div class="image d-flex flex-column justify-content-center align-items-center ">
+								<img src="img/item1.png" src="item1">
+							</div>
+							<div class="desc">
+								میزبان مراسمات و مهمانی‌های شما
+							</div>
+						</div>
+						<div class="Item">
+							<div class="image d-flex flex-column justify-content-center align-items-center ">
+								<img src="img/item2.png" src="item2">
+							</div>
+							<div class="desc">
+								رستوران‌هایی با بهترین کیفیت
+							</div>
+						</div>
+						<div class="Item">
+							<div calss="image d-flex flex-column justify-content-center align-items-center ">
+								<img src="img/item3.png" src="item3">
+							</div>
+							<div class="desc">
+								ارائه بهترین خدمات اقامتی و سیاحتی
+							</div>
+						</div>
+						<div class="Item">
+							<div calss="image d-flex flex-column justify-content-center align-items-center ">
+								<img src="img/item4.png" src="item4">
+							</div>
+							<div class="desc">
+								واقع در یکی از بهترین نقاط شهر تهران
+							</div>
+						</div>
+					</div>
+					<div class="moreInformation">
+						<a class="moreBtn button" href="#" target="_blank">
+							اطلاعات بیشتر
+						</a>
+					</div>
 				</div>
-				<div class="eServiceItem d-flex flex-wrap justify-content-center align-items-center">
-					<a class="item" title="درخواست انشعاب فاضلاب" target="_blank" href="#">
-						<img src="img/icons/fazelab.png" class="serviceImage" title="درخواست انشعاب فاضلاب"
-							alt="درخواست انشعاب فاضلاب">
-						<p class="serviceTitle">درخواست انشعاب فاضلاب</p>
-					</a>
-				</div>
-				<div class="eServiceItem d-flex flex-wrap justify-content-center align-items-center">
-					<a class="item" title="درخواست تعمیر، تعویض و آزمایش کنتور" target="_blank" href="#">
-						<img src="img/icons/kontor.png" class="serviceImage" title="درخواست تعمیر، تعویض و آزمایش کنتور"
-							alt="درخواست تعمیر، تعویض و آزمایش کنتور">
-						<p class="serviceTitle"> درخواست تعمیر، تعویض و آزمایش کنتور </p>
-					</a>
-				</div>
-				<div class="eServiceItem d-flex flex-wrap justify-content-center align-items-center">
-					<a class="item" title="ثبت رقم کنتور در صورت نبود در منزل" target="_blank" href="#">
-						<img src="img/icons/karkard.png" class="serviceImage" title="ثبت رقم کنتور در صورت نبود در منزل"
-							alt="ثبت رقم کنتور در صورت نبود در منزل">
-						<p class="serviceTitle"> ثبت رقم کنتور در صورت نبود در منزل</p>
-					</a>
-				</div>
-				<div class="eServiceItem d-flex flex-wrap justify-content-center align-items-center">
-					<a class="item" title="مشاهده آخرين قبض آب" target="_blank" href="#">
-						<img src="img/icons/akharinGhabz.png" class="serviceImage" title=" مشاهده آخرين قبض آب "
-							alt=" مشاهده آخرين قبض آب ">
-						<p class="serviceTitle"> مشاهده آخرين قبض آب </p>
-					</a>
-				</div>
-
 			</div>
 		</div>
 	</div>
+	<!-- End about us section-->
 	<!-- start news tab -->
 	<div id="newsSection" class="container-fluid px-0">
 		<div class="container">
@@ -708,7 +744,27 @@
 	</footer>
 
 	<!-- scripts -->
+
+	<!-- persian DatePicker باید قبل از theme.js بارگذاری شود -->
+	<script src="js/persian-date.min.js"></script>
+	<script src="js/persian-datepicker.min.js"></script>
+	<link rel="stylesheet" href="css/persian-datepicker.min.css" />
+
+	<!-- پس از آن بقیه اسکریپت‌ها -->
+	<script src="js/theme.js"></script>
 	<script src="js/bundle.js"></script>
+
+	<script>
+		$(document).ready(function () {
+			// تاریخ‌نگار فارسی
+			$("#datepicker").persianDatepicker({
+				format: "YYYY/MM/DD",
+				autoClose: true,
+				initialValue: false
+			});
+		});
+	</script>
+
 	<!-- scripts -->
 
 </body>

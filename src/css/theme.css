@@ -1,6 +1,19 @@
 /*** declare branding color ***/
-:root {
+:root,
+[data-bs-theme="light"] {
+  --main-bg: #ffffff;
+  --main-color: #000000;
   --first-color: #91346b;
+  --second-color: #ffffff;
+  --btn-hover:#6d1c4c ;
+}
+
+[data-bs-theme="dark"] {
+  --main-bg: #000000;
+  --main-color: #ffffff;
+  --first-color: #f4f4f4;
+  --second-color: #000000;
+   --btn-hover:#6d1c4c ;
 }
 /********** SCROLLBAR **********/
 ::-webkit-scrollbar-track {
@@ -478,6 +491,7 @@ html[data-bs-theme="dark"] .changeLanguage i {
 }
 ul.nav-bar-tool.changeLanguage {
   list-style: none;
+  padding: 0;
 }
 ul.nav-bar-tool.changeLanguage > li.dropdown > ul {
   right: -100%;
@@ -502,6 +516,7 @@ ul.nav-bar-tool {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0;
 }
 /*** Navbar End ***/
 
@@ -516,42 +531,6 @@ ul.nav-bar-tool {
   direction: ltr;
 }
 
-/*** electronic services section ***/
-.serviceImage {
-  height: 100px;
-}
-.eServiceItem .item {
-  text-align: center;
-  text-decoration: none;
-  background: #fff;
-  width: 90%;
-  padding: 15px;
-  margin: 10px;
-  border-radius: 15px;
-  transition: 0.3s ease-in-out;
-}
-
-#eServiceSection {
-  margin-top: 20px;
-  background: #ebeaea;
-  padding: 15px;
-}
-.serviceTitle {
-  margin-top: 10px;
-}
-.eServiceItem {
-  width: 33%;
-}
-.eServiceItem .item:hover {
-  background: #393a68;
-}
-.eServiceItem .item:hover p {
-  color: white;
-}
-.eServiceItem .item:hover img {
-  filter: brightness(0) saturate(100%) invert(100%) sepia(5%) saturate(2%)
-    hue-rotate(15deg) brightness(105%) contrast(100%);
-}
 /*** news section ***/
 #newsSection {
   margin-top: 30px;
@@ -737,3 +716,125 @@ ul.nav-bar-tool {
   border-radius: 15px;
   color: var(--first-color) !important;
 }
+
+/** start style Online reservation system  **/
+.flexContainerCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reserveContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  width: 60vw;
+  background: var(--main-bg);
+  margin-top: -30px;
+  position: relative;
+  z-index: 10;
+  border-radius: 2px;
+  border: 0.5px solid var(--main-bg);
+  box-shadow: 0px 0px 4px 0px #00000040;
+}
+.button {
+  transition: 0.3s linear;
+}
+.reserveContainer .button {
+  background: #a32c63;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover {
+  background: var(--btn-hover) !important;!i;!;!i;!;
+}
+
+.reserveContainer .date-info,
+.reserveContainer .guest-info {
+  font-size: 16px;
+  color: #a32c63;
+}
+
+.reserveContainer .date-picker {
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.reserveContainer .guest-info input {
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.reserveContainer .guest-info label {
+  margin: 0 10px;
+  font-size: 16px;
+  color: var(--main-color);
+}
+/** end style Online reservation system  **/
+/** Start Style About Us Section **/
+#aboutUsSection {
+  padding-top: 30px;
+  background: url(../img/aboutUsBg.png);
+  background-size: 100% 100%;
+  min-height: 545px;
+  filter: brightness(1.02);
+}
+#aboutUsSection .mainContainer {
+  width: 60vw;
+}
+#aboutUsSection .flashDown i {
+  color: var(--first-color);
+  font-size: 46px;
+}
+#aboutUsSection .mainContainer div {
+  margin-top: 10px;
+}
+#aboutUsSection .mainContainer .shoar {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+#aboutUsSection .mainContainer .hotelName {
+  text-align: center;
+  font-weight: 850;
+  font-size: 48px;
+}
+#aboutUsSection .mainContainer .fiveStar {
+  text-align: center;
+}
+#aboutUsSection .mainContainer > .desc {
+  font-size: 14px;
+  font-weight: 550;
+  line-height: 25.2px;
+  text-align: justify;
+}
+#aboutUsSection .mainContainer .facilities {
+  justify-content: space-evenly;
+}
+#aboutUsSection .mainContainer .facilities .Item {
+  width: calc(100% / 4 - 30px);
+  text-align: center;
+  padding: 10px 10px;
+}
+#aboutUsSection .mainContainer .moreInformation {
+  text-align: center;
+  margin-top: 20px;
+}
+#aboutUsSection .mainContainer .moreInformation a {
+  background: var(--first-color);
+  color: var(--second-color);
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 26px;
+}
+/** End Style About Us Section **/
