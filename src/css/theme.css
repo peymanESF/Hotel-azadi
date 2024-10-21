@@ -130,7 +130,7 @@ body {
   font-family: IranSans;
   overflow-x: hidden;
   direction: rtl;
-  background: transparent;
+  background: url(../img/art-bg-pattern.jpg);
 }
 
 body > form {
