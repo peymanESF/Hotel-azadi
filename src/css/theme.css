@@ -17,7 +17,7 @@
 }
 /********** SCROLLBAR **********/
 ::-webkit-scrollbar-track {
-  /* background: #555; */
+  background: var(--first-color);
 }
 ::-webkit-scrollbar {
   width: 8px;
@@ -161,14 +161,7 @@ body {
   font-family: IranSans;
   overflow-x: hidden;
   direction: rtl;
-  background: url(../img/art-bg.png);url(
-  ../img/art-bg.png 0);url(
-  ../img/art-bg.png 0.);url(
-  ../img/art-bg.png 0.9);url(
-  ../img/art-bg.png 0.);url(
-  ../img/art-bg.png 0.5);url(
-  ../img/art-bg.png 0.);url(
-  ../img/art-bg.png 0);
+  background: url(../img/art-bg.png)
 }
 
 body > form {
@@ -615,9 +608,6 @@ ul.nav-bar-tool {
   background: #f8f9fa;
   padding: 15px;
 }
-.relatedLinks {
-  /* width: 100%; */
-}
 #linksSection .item {
   background: #393a68;
   margin: 20px;
@@ -727,7 +717,7 @@ ul.nav-bar-tool {
   cursor: pointer;
 }
 .button:hover {
-  background: var(--btn-hover) !important;!i;!;!i;!;
+  background: var(--btn-hover) !important;
 }
 
 .reserveContainer .date-info,
