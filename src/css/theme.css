@@ -806,7 +806,7 @@ ul.nav-bar-tool {
   border-radius: 5px;
   cursor: pointer;
 }
-.button:hover {
+.button:hover,.btnreserve:hover {
   background: var(--btn-hover) !important;
 }
 
@@ -843,7 +843,7 @@ ul.nav-bar-tool {
   background: url(../img/aboutUsBg.png);
   background-size: 100% 100%;
   min-height: 545px;
-  filter: brightness(1.02);
+  filter: brightness(1.02);  
 }
 #aboutUsSection .mainContainer {
   width: 60vw;
@@ -1127,5 +1127,54 @@ ul.nav-bar-tool {
 .sallonsSection .name {
   font-weight: 850;
   font-size: 40px;
+}
+.sallonsSection .cardContainer{
+    justify-content: space-between;
+    text-align: right;
+    flex-wrap: wrap;
+}
+.sallonsSection .room-slide-item.active .cardContainer{
+  flex-wrap:wrap;
+  justify-content:space-between !important;
+}
+.sallonsSection .room-slide-item.active .cardContainer > div{
+  width:max-content !important;
+  margin-right:unset !important;
+}
+.sallonsSection .room-slide-item.active .cardContainer .card-title{
+  margin-bottom:0 !important;
+}
+.sallonsSection .room-slide-item .card-link a.btn{
+  width:125px;
+  font-size: 16px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sallonsSection .room-slide-item .card-link a.btn.btnreserve{
+  background: var(--first-color);
+  border: none !important;
+}
+.sallonsSection .room-slide-item .card{
+  position:relative;
+}
+.sallonsSection .room-slide-item .card:before{
+  content:'';
+  bottom:0;
+  left:0;
+  position:absolute;
+  width:100%;
+  height:100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+
+}
+.sallonsSection .room-slide-item .card .card-desc{
+    font-size: 16px;
+    font-weight: 550;
+}
+.sallonsSection .room-slide-item .card .card-title{
+    font-size: 24px !important;
+    font-weight: 700 !important;
 }
 /** end style saloons section **/

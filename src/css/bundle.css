@@ -41184,11 +41184,11 @@ textarea.form-control-lg {
         -moz-transition: all .35s ease-in-out;
         -ms-transition: all .35s ease-in-out;
         -o-transition: all .35s ease-in-out;
-        margin: 0 10px;
+        margin: 0 5px;
     }
 
     .room-slide .room-slide-item:not(:last-child) {
-        padding-right: var(--bs-room-slide-item-padding)
+        /* padding-right: var(--bs-room-slide-item-padding); */
     }
 
     .room-slide .room-slide-item.active {
