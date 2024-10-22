@@ -2735,9 +2735,8 @@
                 isAnimated: !0,
                 rootElement: this._element.parentNode,
                 clickCallback: e ? () => {
-                        "static" === this._config.backdrop ? g.trigger(this._element, Ai) : this.hide()
-                    } :
-                    null
+                    "static" === this._config.backdrop ? g.trigger(this._element, Ai) : this.hide()
+                } : null
             })
         }
         _initializeFocusTrap() {
@@ -25162,7 +25161,7 @@ var theme = {
         let e = document.querySelectorAll(".bg-image");
         for (let t = 0; t < e.length; t++) {
             let i = e[t].getAttribute("data-image-src");
-            e[t].style.backgroundImage = "url('" + i + "')"
+            e[t].style.backgroundImage = "rgba(145, 52, 107, 95%), rgba(145, 52, 107, 95%)),url('" + i + "')"
         }
     },
     bgImageMobile() {
@@ -25604,7 +25603,7 @@ var theme = {
                 },
                 breakpoints: {
                     960: {
-                        slidesPerView: 2,
+                        slidesPerView: 3,
                         spaceBetween: 17
                     }
                 }

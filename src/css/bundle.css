@@ -4624,7 +4624,7 @@ button.swiper-pagination-bullet {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: var(--hicon-size)
+    font-size: var(--hicon-size);    
 }
 
 .fw-bold>.hicon,.fw-bolder>.hicon,.fw-medium>.hicon,.fw-semibold>.hicon,.hicon.hicon-bold {
@@ -10083,7 +10083,7 @@ hr {
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
     margin-top: 0;
     margin-bottom: 1rem;
-    font-family: "Red Hat Text",sans-serif;
+    font-family: "Abar Vf",IranSans;
     font-weight: 500;
     line-height: 1.35;
     color: var(--bs-heading-color)
@@ -41183,7 +41183,8 @@ textarea.form-control-lg {
         -webkit-transition: all .35s ease-in-out;
         -moz-transition: all .35s ease-in-out;
         -ms-transition: all .35s ease-in-out;
-        -o-transition: all .35s ease-in-out
+        -o-transition: all .35s ease-in-out;
+        margin: 0 10px;
     }
 
     .room-slide .room-slide-item:not(:last-child) {
@@ -41192,7 +41193,7 @@ textarea.form-control-lg {
 
     .room-slide .room-slide-item.active {
         width: 50%;
-        cursor: unset
+        cursor: unset;
     }
 
     .room-slide .room-slide-item.active .card-title {
