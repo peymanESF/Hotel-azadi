@@ -235,7 +235,7 @@
 	</div>
 	<!--end Online reservation system-->
 	<!-- start about us section-->
-	<div id="aboutUsSection" class="container-fluid px-0">
+	<div id="aboutUsSection" class="container-fluid px-0" data-cues="fadeIn">
 		<div class="container px-0">
 			<div class="d-flex flex-column justify-content-center align-items-center">
 				<div class="flashDown">
@@ -316,7 +316,7 @@
 			<div class="mainContainer">
 				<!-- Swiper -->
 				<div dir="rtl" class="swiper mySwiper">
-					<div class="swiper-wrapper">
+					<div class="swiper-wrapper" data-cues="fadeIn">
 						<div class="swiper-slide">
 							<div class="roomsImg">
 								<img src="img/rooms.jpg" alt="room's image">
@@ -652,9 +652,8 @@
     animation-name: fadeIn;animation-name: fadeIn;animation-duration: 600ms;animation-timing-function: ease;animation-delay: 0ms;animation-direction: normal;animation-fill-mode: both;"
 			data-show="true"></div>
 		<div class="container">
-			<div class="row flex-column g-0" data-cues="fadeIn" data-disabled="true">
-				<div class="col-12 text-center" data-cue="fadeIn" data-show="true"
-					style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+			<div class="row flex-column g-0">
+				<div class="col-12 text-center" data-cues="fadeIn">
 					<!-- Description -->
 					<div class="mb-8">
 						<span class="text-uppercase h-sub-font d-block mb-4 shoar">هارمونی طعم&zwnj;ها
@@ -667,20 +666,21 @@
 					</div>
 					<!-- /Description -->
 				</div>
-				<div class="col-12 " data-cue="fadeIn" data-show="true"
+				<div class="col-12 "
 					style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 400ms; animation-direction: normal; animation-fill-mode: both;">
 					<div class="ps-0 ps-xl-10">
 						<!-- Offer list -->
 						<div
 							class="swiper offer-slider-1 swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden swiper-rtl">
-							<div class="swiper-wrapper" id="swiper-wrapper-resturant" aria-live="polite">
+							<div class="swiper-wrapper" id="swiper-wrapper-resturant" aria-live="polite"
+								data-cues="fadeIn">
 								<div class="swiper-slide">
 									<!-- Offer item -->
 									<div class="card card-content-hover border-0 m-1">
 										<a href="./single-offer.html" title="">
 											<figure class="image-hover-scale image-hover-overlay mb-0">
 												<img src="img/resturant/slide1.png" class="card-img-top" alt="">
-												<i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
+												<i class="hicon hicon-plus-thin image-hover-icon "></i>
 											</figure>
 										</a>
 										<div class="card-body shadow-sm">
@@ -701,7 +701,7 @@
 										<a href="./single-offer.html" title="">
 											<figure class="image-hover-scale image-hover-overlay mb-0">
 												<img src="img/resturant/slide2.jpg" class="card-img-top" alt="">
-												<i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
+												<i class="hicon hicon-plus-thin image-hover-icon "></i>
 											</figure>
 										</a>
 										<div class="card-body shadow-sm">
@@ -722,7 +722,7 @@
 										<a href="./single-offer.html" title="">
 											<figure class="image-hover-scale image-hover-overlay mb-0">
 												<img src="img/resturant/slide3.jpg" class="card-img-top" alt="">
-												<i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
+												<i class="hicon hicon-plus-thin image-hover-icon "></i>
 											</figure>
 										</a>
 										<div class="card-body shadow-sm">
@@ -767,19 +767,16 @@
 	<!-- start saloons section -->
 	<section id="rooms" class="pt-16 pb-13 bg-primary-650 text-body sallonsSection">
 		<!-- Heading -->
-		<div class="mb-10 text-center" data-cues="fadeIn" data-disabled="true">
-			<span class="d-block mb-4 shoar" data-cue="fadeIn" data-show="true"
-				style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+		<div class="mb-10 text-center" data-cues="fadeIn">
+			<span class="d-block mb-4 shoar">
 				میزبانی مجلل</span>
-			<h2 class="mb-6 text-body-emphasis name" data-cue="fadeIn" data-show="true"
-				style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+			<h2 class="mb-6 text-body-emphasis name">
 				سالن مجالس و تشریفات</h2>
 		</div>
 		<!-- /Heading -->
 		<!-- Saloons List -->
-		<div class="room-slide" data-cue="fadeIn" data-show="true"
-			style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
-			<div class="room-slide-item mb-8">
+		<div class="room-slide">
+			<div class="room-slide-item mb-8" data-cues="fadeIn">
 				<div class="card card-overlay-bottom border-0 text-white">
 					<img src="img/saloons/item.png" class="card-img" alt="...">
 					<div class="card-img-overlay border-bottom p-md-10">
@@ -887,12 +884,138 @@
 					</div>
 				</div>
 			</div>
-			
+
 
 		</div>
 		<!-- /Saloons List -->
 	</section>
 	<!-- end saloons section -->
+	<!-- start offers section-->
+	<section id="offers" class="pt-16 pb-16 bg-body-tertiary position-relative">
+		<div class="bg-primary position-absolute start-0 top-0 bottom-0 w-20 image-wrapper bg-image bg-cover d-none d-xl-block"
+			data-cue="fadeIn" data-image-src="img/offers/offer-bg.jpg"
+			style="background-image: linear-gradient(45deg, rgba(145, 52, 107, 95%), rgba(145, 52, 107, 95%)), url(img/offers/offer-bg.jpg);">
+		</div>
+		<div class="container">
+			<div class="row g-0" data-cues="fadeIn">
+				<div class="col-12 col-xl-4">
+					<!-- Description -->
+					<div class="mb-8">
+						<span class="text-uppercase h-sub-font  d-block mb-4 shoar">انتخابی بی‌همتا</span>
+						<h2 class="text-uppercase h-special-font mb-6 text-body-emphasis name">پیشنهادات ویژه</h2>
+						<p class="mb-10 desc">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از
+							طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و
+							برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد،
+							کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد.
+						</p>
+						<div class="mb-8">
+							<a href="./special-offers.html"
+								class="btn btn-primary fw-medium text-uppercase  fsm-1 pt-4 pb-4 ps-8 pe-8 h-sub-font">
+								<span>مشاهده پیشنهادات بیشتر ></span>
+								<i class="hicon hicon-thin-circle-arrow-right"></i>
+							</a>
+						</div>
+						<div class="d-inline-flex align-items-center  text-center justify-content-between">
+							<span role="button" class="offer-prev-2 p-4 lh-1 text-primary">
+								<i class="hicon hicon-thin-arrow-left text-primary"></i>
+							</span>
+							<span class="offer-pagination-2 p-4 lh-1 fs-5"></span>
+							<span role="button" class="offer-next-2 p-4 lh-1 text-primary">
+								<i class="hicon hicon-thin-arrow-right"></i>
+							</span>
+						</div>
+					</div>
+					<!-- /Description -->
+				</div>
+				<div class="col-12 col-xl-8">
+					<div class="ps-0 ps-xl-10">
+						<!-- Offer list -->
+						<div class="swiper offer-slider-2">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<!-- Offer item -->
+									<div class="card card-content-hover border-0 m-1">
+										<a href="./single-offer.html" title="">
+											<figure class="image-hover-scale image-hover-overlay mb-0">
+												<img src="img/offers/1.jpg" srcset="./assets/img/offers/o2@2x.jpg 2x"
+													class="card-img-top" alt="">
+												<i class="hicon hicon-plus-thin image-hover-icon "></i>
+											</figure>
+										</a>
+										<div class="card-body shadow-sm">
+											<h3 class="card-title h5 text-uppercase h-sub-font ">15% تخفیف ویژه
+												پیشنهاد
+											</h3>
+											<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده
+												از طراحان گرافیک است.</p>
+											<a href="./single-offer.html"
+												class="fw-semibold d-inline-block fsm-4 text-uppercase  h-sub-font">
+												<span>اطلاعات بیشتر</span>
+												<i class="hicon hicon-flights-one-ways"></i>
+											</a>
+										</div>
+									</div>
+									<!-- /Offer item -->
+								</div>
+								<div class="swiper-slide">
+									<!-- Offer item -->
+									<div class="card card-content-hover border-0 m-1">
+										<a href="./single-offer.html" title="">
+											<figure class="image-hover-scale image-hover-overlay mb-0">
+												<img src="img/offers/2.png" srcset="./assets/img/offers/o1@2x.jpg 2x"
+													class="card-img-top" alt="">
+												<i class="hicon hicon-plus-thin image-hover-icon "></i>
+											</figure>
+										</a>
+										<div class="card-body shadow-sm">
+											<h3 class="card-title h5 text-uppercase h-sub-font ">20% تخفیف ویژه
+												پیشنهاد</h3>
+											<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده
+												از طراحان گرافیک است.</p>
+											<a href="./single-offer.html"
+												class="fw-semibold d-inline-block fsm-4 text-uppercase  h-sub-font">
+												<span>اطلاعات بیشتر</span>
+												<i class="hicon hicon-flights-one-ways"></i>
+											</a>
+										</div>
+									</div>
+									<!-- /Offer item -->
+								</div>
+								<div class="swiper-slide">
+									<!-- Offer item -->
+									<div class="card card-content-hover border-0 m-1">
+										<a href="./single-offer.html" title="">
+											<figure class="image-hover-scale image-hover-overlay mb-0">
+												<img src="img/offers/1.jpg" srcset="./assets/img/offers/o3@2x.jpg 2x"
+													class="card-img-top" alt="">
+												<i class="hicon hicon-plus-thin image-hover-icon "></i>
+											</figure>
+										</a>
+										<div class="card-body shadow-sm">
+											<h3 class="card-title h5 text-uppercase h-sub-font ">15% تخفیف ویژه
+												پیشنهاد
+											</h3>
+											<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده
+												از طراحان گرافیک است.
+											</p>
+											<a href="./single-offer.html"
+												class="fw-semibold d-inline-block fsm-4 text-uppercase  h-sub-font">
+												<span>اطلاعات بیشتر</span>
+												<i class="hicon hicon-flights-one-ways"></i>
+											</a>
+										</div>
+									</div>
+									<!-- /Offer item -->
+								</div>
+							</div>
+						</div>
+						<!-- /Offer list -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--end offers section-->
 
 	<footer id="footerSection" class="container-fluid">
 		<div class="container px-0">
