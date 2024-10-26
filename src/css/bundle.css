@@ -14923,19 +14923,19 @@ textarea.form-control-lg {
 
 .btn-primary {
     --bs-btn-color: #fff;
-    --bs-btn-bg: #9B7C64;
-    --bs-btn-border-color: #9B7C64;
+    --bs-btn-bg: #91346b;
+    --bs-btn-border-color: #91346b;
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #846955;
-    --bs-btn-hover-border-color: #7c6350;
+    --bs-btn-hover-bg: #6d1c4c;
+    --bs-btn-hover-border-color: #6d1c4c;
     --bs-btn-focus-shadow-rgb: 170,144,123;
     --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #7c6350;
-    --bs-btn-active-border-color: #745d4b;
+    --bs-btn-active-bg: #6d1c4c;
+    --bs-btn-active-border-color: #6d1c4c;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #9B7C64;
-    --bs-btn-disabled-border-color: #9B7C64
+    --bs-btn-disabled-bg: #91346b;
+    --bs-btn-disabled-border-color: #91346b
 }
 
 .btn-secondary {
@@ -16571,7 +16571,7 @@ textarea.form-control-lg {
 }
 
 .card.card-content-hover:hover .card-body :not(.btn) {
-    color: var(--bs-white)
+    color: var(--bs-white) !important;!i;!;
 }
 
 .card.card-float-bottom .card-body {
