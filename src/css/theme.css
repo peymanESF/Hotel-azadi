@@ -1,11 +1,14 @@
 /*** declare branding color ***/
-:root,
-[data-bs-theme="light"] {
+:root, [data-bs-theme="light"] {
   --main-bg: #ffffff;
   --main-color: #000000;
   --first-color: #91346b;
   --second-color: #ffffff;
   --btn-hover: #6d1c4c;
+  --primary-btn:#91346b;
+}
+[data-bs-theme="light"] a:hover span{
+  --primary-btn:#ffffff;
 }
 
 [data-bs-theme="dark"] {
@@ -15,20 +18,27 @@
   --second-color: #000000;
   --btn-hover: #6d1c4c;
 }
+.fa-num,
+[class*=swiper-pagination]{
+  font-family: 'AbarLowFaNum Regular WOFF';
+}
 /********** SCROLLBAR **********/
 ::-webkit-scrollbar-track {
   background: var(--first-color);
 }
+
 ::-webkit-scrollbar {
   width: 8px;
-  height: 8px; /* background: #555; */
+  height: 8px;
+  /* background: #555; */
 }
+
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
   background: #eee;
 }
-:root,
-* {
+
+:root, * {
   scrollbar-width: thin;
   scrollbar-color: #eee #555;
 }
@@ -38,42 +48,52 @@
   font-family: "Abar VF";
   src: url("../fonts/Abar-vf.woff2");
 }
+
 @font-face {
   font-family: "AbarLowFaNum Regular WOFF";
   src: url("../fonts/AbarLowFaNum-Regular.woff");
 }
+
 @font-face {
   font-family: "AbarLowFaNum SemiBold WOFF";
   src: url("../fonts/AbarLowFaNum-SemiBold.woff");
 }
+
 @font-face {
   font-family: "AbarLowFaNum Bold WOFF";
   src: url("../fonts/AbarLowFaNum-Bold.woff");
 }
+
 @font-face {
   font-family: "AbarLowFaNum ExtraBold WOFF";
   src: url("../fonts/AbarLowFaNum-ExtraBold.woff");
 }
+
 @font-face {
   font-family: "AbarLowFaNum Black WOFF";
   src: url("../fonts/AbarLowFaNum-Black.woff");
 }
+
 @font-face {
   font-family: "AbarLowFaNum Regular WOFF2";
   src: url("../fonts/AbarLowFaNum-Regular.woff2");
 }
+
 @font-face {
   font-family: "AbarLowFaNum SemiBold WOFF2";
   src: url("../fonts/AbarLowFaNum-SemiBold.woff2");
 }
+
 @font-face {
   font-family: "AbarLowFaNum Bold WOFF2";
   src: url("../fonts/AbarLowFaNum-Bold.woff2");
 }
+
 @font-face {
   font-family: "AbarLowFaNum ExtraBold WOFF2";
   src: url("../fonts/AbarLowFaNum-ExtraBold.woff2");
 }
+
 @font-face {
   font-family: "AbarLowFaNum Black WOFF2";
   src: url("../fonts/AbarLowFaNum-Black.woff2");
@@ -83,92 +103,108 @@
   font-family: "AbarMidFaNum Regular WOFF";
   src: url("../fonts/AbarMidFaNum-Regular.woff");
 }
+
 @font-face {
   font-family: "AbarMidFaNum SemiBold WOFF";
   src: url("../fonts/AbarMidFaNum-SemiBold.woff");
 }
+
 @font-face {
   font-family: "AbarMidFaNum Bold WOFF";
   src: url("../fonts/AbarMidFaNum-Bold.woff");
 }
+
 @font-face {
   font-family: "AbarMidFaNum ExtraBold WOFF";
   src: url("../fonts/AbarMidFaNum-ExtraBold.woff");
 }
+
 @font-face {
   font-family: "AbarMidFaNum Black WOFF";
   src: url("../fonts/AbarMidFaNum-Black.woff");
 }
+
 @font-face {
   font-family: "AbarMidFaNum Regular WOFF2";
   src: url("../fonts/AbarMidFaNum-Regular.woff2");
 }
+
 @font-face {
   font-family: "AbarMidFaNum SemiBold WOFF2";
   src: url("../fonts/AbarMidFaNum-SemiBold.woff2");
 }
+
 @font-face {
   font-family: "AbarMidFaNum Bold WOFF2";
   src: url("../fonts/AbarMidFaNum-Bold.woff2");
 }
+
 @font-face {
   font-family: "AbarMidFaNum ExtraBold WOFF2";
   src: url("../fonts/AbarMidFaNum-ExtraBold.woff2");
 }
+
 @font-face {
   font-family: "AbarMidFaNum Black WOFF2";
   src: url("../fonts/AbarMidFaNum-Black.woff2");
 }
+
 @font-face {
   font-family: "AbarHighFaNum Regular WOFF";
   src: url("../fonts/AbarHighFaNum-Regular.woff");
 }
+
 @font-face {
   font-family: "AbarHighFaNum SemiBold WOFF";
   src: url("../fonts/AbarHighFaNum-SemiBold.woff");
 }
+
 @font-face {
   font-family: "AbarHighFaNum Bold WOFF";
   src: url("../fonts/AbarHighFaNum-Bold.woff");
 }
+
 @font-face {
   font-family: "AbarHighFaNum ExtraBold WOFF";
   src: url("../fonts/AbarHighFaNum-ExtraBold.woff");
 }
+
 @font-face {
   font-family: "AbarHighFaNum Black WOFF";
   src: url("../fonts/AbarHighFaNum-Black.woff");
 }
+
 @font-face {
   font-family: "AbarHighFaNum Regular WOFF2";
   src: url("../fonts/AbarHighFaNum-Regular.woff2");
 }
+
 @font-face {
   font-family: "AbarHighFaNum SemiBold WOFF2";
   src: url("../fonts/AbarHighFaNum-SemiBold.woff2");
 }
+
 @font-face {
   font-family: "AbarHighFaNum Bold WOFF2";
   src: url("../fonts/AbarHighFaNum-Bold.woff2");
 }
+
 @font-face {
   font-family: "AbarHighFaNum ExtraBold WOFF2";
   src: url("../fonts/AbarHighFaNum-ExtraBold.woff2");
 }
+
 @font-face {
   font-family: "AbarHighFaNum Black WOFF2";
   src: url("../fonts/AbarHighFaNum-Black.woff2");
 }
+
 @font-face {
   font-family: IranYekan;
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/IranYekan.eot");
-  src: url("../fonts/IranYekan.eot?#iefix") format("embedded-opentype"),
-    /* IE6-8 */ url("../fonts/IranYekan.woff2") format("woff2"),
-    /* FF39+,Chrome36+, Opera24+*/ url("~/fonts/IranYekan.woff") format("woff"),
-    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/IranYekan.ttf")
-      format("truetype");
+  src: url("../fonts/IranYekan.eot?#iefix") format("embedded-opentype"), /* IE6-8 */ url("../fonts/IranYekan.woff2") format("woff2"), /* FF39+,Chrome36+, Opera24+*/ url("~/fonts/IranYekan.woff") format("woff"), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/IranYekan.ttf") format("truetype");
 }
 
 @font-face {
@@ -176,11 +212,7 @@
   font-weight: normal;
   font-style: normal;
   src: url("../fonts/IRANYekanWebLight.eot");
-  src: url("../fonts/IRANYekanWebLight.eot") format("embedded-opentype"),
-    url("../fonts/fontawesome-webfont.svg") format("svg"),
-    url("../fonts/IRANYekanWebLight.ttf") format("truetype"),
-    url("../fonts/IRANYekanWebLight.woff") format("woff")
-      url("../fonts/IRANYekanWebLight.woff2") format("woff2");
+  src: url("../fonts/IRANYekanWebLight.eot") format("embedded-opentype"), url("../fonts/fontawesome-webfont.svg") format("svg"), url("../fonts/IRANYekanWebLight.ttf") format("truetype"), url("../fonts/IRANYekanWebLight.woff") format("woff") url("../fonts/IRANYekanWebLight.woff2") format("woff2");
 }
 
 @font-face {
@@ -188,11 +220,7 @@
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/IranYekan.eot");
-  src: url("../fonts/IranYekan.eot?#iefix") format("embedded-opentype"),
-    /* IE6-8 */ url("../fonts/IranYekan.woff2") format("woff2"),
-    /* FF39+,Chrome36+, Opera24+*/ url("../fonts/IranYekan.woff") format("woff"),
-    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/IranYekan.ttf")
-      format("truetype");
+  src: url("../fonts/IranYekan.eot?#iefix") format("embedded-opentype"), /* IE6-8 */ url("../fonts/IranYekan.woff2") format("woff2"), /* FF39+,Chrome36+, Opera24+*/ url("../fonts/IranYekan.woff") format("woff"), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/IranYekan.ttf") format("truetype");
 }
 
 @font-face {
@@ -200,12 +228,7 @@
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/IranSansWeb.eot");
-  src: url("../fonts/IranSansWebeot?#iefix") format("embedded-opentype"),
-    /* IE6-8 */ url("../fonts/IranSansWeb.woff2") format("woff2"),
-    /* FF39+,Chrome36+, Opera24+*/ url("../fonts/IranSansWeb.woff")
-      format("woff"),
-    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/IranSansWeb.ttf")
-      format("truetype");
+  src: url("../fonts/IranSansWebeot?#iefix") format("embedded-opentype"), /* IE6-8 */ url("../fonts/IranSansWeb.woff2") format("woff2"), /* FF39+,Chrome36+, Opera24+*/ url("../fonts/IranSansWeb.woff") format("woff"), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/IranSansWeb.ttf") format("truetype");
 }
 
 @font-face {
@@ -215,37 +238,28 @@
 
 @font-face {
   font-family: Loew;
-  src: url("../fonts/Loew.otf") format("otf"),
-    url("../fonts/Loew-black.otf") format("otf"),
-    url("../fonts/Loew-ExtraBold.otf") format("otf"),
-    url("../fonts/Loew-Heavy.otf") format("otf"),
-    url("../fonts/Loew-Light.otf") format("otf"),
-    url("../fonts/Loew-Medium.otf") format("otf"),
-    url("../fonts/Loew-Next.otf") format("otf"),
-    url("../fonts/Loew-Thin.otf") format("otf"), url("../fonts/") format("otf");
+  src: url("../fonts/Loew.otf") format("otf"), url("../fonts/Loew-black.otf") format("otf"), url("../fonts/Loew-ExtraBold.otf") format("otf"), url("../fonts/Loew-Heavy.otf") format("otf"), url("../fonts/Loew-Light.otf") format("otf"), url("../fonts/Loew-Medium.otf") format("otf"), url("../fonts/Loew-Next.otf") format("otf"), url("../fonts/Loew-Thin.otf") format("otf"), url("../fonts/") format("otf");
 }
 
 @font-face {
   font-family: Vazir;
-  src: url("../fonts/Vazir-Bold-FD-WOL.ttf") format("ttf"),
-    url("../fonts/Vazir-FD-WOL.ttf") format("ttf"),
-    url("../fonts/Vazir-Light-FD-WOL.ttf") format("ttf"),
-    url("../fonts/Vazir-Medium-FD-WOL.ttf") format("ttf"),
-    url("../fonts/Vazir-Thin-FD-WOL.ttf") format("ttf"),
-    url("../fonts/Vazir-Thin-FD-WOL.ttf") format("ttf");
+  src: url("../fonts/Vazir-Bold-FD-WOL.ttf") format("ttf"), url("../fonts/Vazir-FD-WOL.ttf") format("ttf"), url("../fonts/Vazir-Light-FD-WOL.ttf") format("ttf"), url("../fonts/Vazir-Medium-FD-WOL.ttf") format("ttf"), url("../fonts/Vazir-Thin-FD-WOL.ttf") format("ttf"), url("../fonts/Vazir-Thin-FD-WOL.ttf") format("ttf");
 }
 
 @font-face {
   font-family: BNazanin;
   src: url("../fonts/B_nazanin.ttf") format("ttf");
 }
+
 /*** theme style ***/
 html {
   min-height: 100vh;
 }
+
 * {
   box-sizing: border-box;
 }
+
 body {
   min-height: 100vh;
   font-family: IranSans;
@@ -267,6 +281,7 @@ body > form > main > div.table-class {
   flex-direction: column;
   height: 100%;
 }
+
 /*** Topbar Start ***/
 .top-help-link {
   display: flex;
@@ -291,15 +306,13 @@ body > form > main > div.table-class {
   color: #393a6a !important;
 }
 
-.top-link a,
-.top-link a i {
+.top-link a, .top-link a i {
   font-size: 15px;
   color: #fff;
   transition: 0.5s linear;
 }
 
-.top-link a:hover,
-.top-link a:hover i {
+.top-link a:hover, .top-link a:hover i {
   color: #393b63;
 }
 
@@ -311,6 +324,7 @@ body > form > main > div.table-class {
 .top-help-link ul li {
   list-style: none;
 }
+
 .toggle-search {
   position: relative;
   display: flex;
@@ -323,6 +337,7 @@ body > form > main > div.table-class {
   color: #fff;
   font-weight: 100;
 }
+
 .dp-date {
   position: relative;
   color: #000;
@@ -335,6 +350,7 @@ body > form > main > div.table-class {
   position: relative;
   display: block;
 }
+
 .dp-date::before {
   content: "\f073";
   position: absolute;
@@ -343,6 +359,7 @@ body > form > main > div.table-class {
   font-size: 15px;
   font-family: "Font Awesome 5 Pro";
 }
+
 .dp-search {
   position: absolute;
   top: 0;
@@ -558,79 +575,73 @@ body > form > main > div.table-class {
   background: #f8f9fa !important;
 }
 
-.topbar a,
-.topbar a i {
+.topbar a, .topbar a i {
   transition: 0.5s;
 }
 
-.topbar a:hover,
-.topbar a i:hover {
+.topbar a:hover, .topbar a i:hover {
   color: #393a6a !important;
 }
 
 @media (max-width: 768px) {
   .topbar {
-    display: none;
+      display: none;
   }
 }
-/*** Topbar End ***/
 
+/*** Topbar End ***/
 /*** Navbar Start ***/
-#toggle-theme,
-.changeLanguage i {
+#toggle-theme, .changeLanguage i {
   color: #ffffff;
   font-size: 30px;
 }
-html[data-bs-theme="light"]
-  #header
-  .header-navbar.header-navbar-sticky
-  #toggle-theme,
-html[data-bs-theme="light"]
-  #header
-  .header-navbar.header-navbar-sticky
-  .changeLanguage
-  i {
+
+html[data-bs-theme="light"] #header .header-navbar.header-navbar-sticky #toggle-theme, html[data-bs-theme="light"] #header .header-navbar.header-navbar-sticky .changeLanguage i {
   color: #000000 !important;
 }
-html[data-bs-theme="dark"]
-  #header
-  .header-navbar.header-navbar-sticky
-  #toggle-theme,
-html[data-bs-theme="dark"] .changeLanguage i {
+
+html[data-bs-theme="dark"] #header .header-navbar.header-navbar-sticky #toggle-theme, html[data-bs-theme="dark"] .changeLanguage i {
   color: #ffffff !important;
 }
 
-#header .header-navbar.header-navbar-sticky .fal.fa-globe.fa-lg,
-#header .header-navbar.header-navbar-sticky .fas.fa-caret-down {
+#header .header-navbar.header-navbar-sticky .fal.fa-globe.fa-lg, #header .header-navbar.header-navbar-sticky .fas.fa-caret-down {
   color: #000000;
 }
+
 #header .header-navbar.header-navbar-sticky .darkLight svg * {
   fill: #000000 !important;
 }
+
 .darkLight {
   list-style: none;
 }
+
 ul.nav-bar-tool.changeLanguage {
   list-style: none;
   padding: 0;
 }
+
 ul.nav-bar-tool.changeLanguage > li.dropdown > ul {
   right: -100%;
   /* margin-top: 10px !important; */
   min-width: 20px !important;
   width: 120px;
 }
+
 #header ul.nav-bar-tool.changeLanguage .dropdown-menu:before {
   right: 40%;
 }
+
 ul.nav-bar-tool.changeLanguage > ul.dropdown-menu {
   transition: 0.3s ease-in-out;
 }
+
 ul.nav-bar-tool.changeLanguage > li.dropdown > ul li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 ul.nav-bar-tool {
   flex: 1 0 1%;
   margin: 0;
@@ -639,21 +650,22 @@ ul.nav-bar-tool {
   align-items: center;
   padding: 0;
 }
-/*** Navbar End ***/
 
+/*** Navbar End ***/
 /*** slider carousel ***/
 .carousel-item img {
   height: 800px;
 }
+
 .carousel button {
   width: 5% !important;
 }
+
 .carousel-indicators {
   direction: ltr;
 }
 
 /*** contact us ***/
-
 #contact-us-section {
   padding: 15px;
 }
@@ -662,9 +674,11 @@ ul.nav-bar-tool {
   width: 100%;
   border-radius: 15px;
 }
+
 #contact-us-section {
   position: relative;
 }
+
 #contact-us-section:before {
   content: "";
   background: url("../img/contact-us/banner.jpg") no-repeat;
@@ -676,6 +690,7 @@ ul.nav-bar-tool {
   right: 0;
   z-index: -2;
 }
+
 #contact-us-section:after {
   content: "";
   width: 100%;
@@ -686,26 +701,31 @@ ul.nav-bar-tool {
   z-index: -1;
   background: #adb5bdde;
 }
+
 .contactText {
   background: var(--first-color);
   color: white;
   padding: 10px;
   border-radius: 15px;
 }
+
 /*** links section ***/
 #linksSection {
   margin-top: 20px;
   background: #f8f9fa;
   padding: 15px;
 }
+
 #linksSection .item {
   background: #393a68;
   margin: 20px;
   border-radius: 15px;
 }
+
 #linksSection img {
   padding: 50px;
 }
+
 .owl-prev {
   position: absolute;
   right: -25px;
@@ -713,9 +733,11 @@ ul.nav-bar-tool {
   background: transparent !important;
   color: black !important;
 }
+
 .owl-prev i {
   font-size: 30px !important;
 }
+
 .owl-next {
   position: absolute;
   left: -25px;
@@ -723,28 +745,31 @@ ul.nav-bar-tool {
   background: transparent !important;
   color: black !important;
 }
+
 .owl-next i {
   font-size: 30px !important;
 }
 
 /*** footer ***/
 #footerSection {
-  margin-top: 30px;
   background: var(--first-color);
   padding: 20px;
 }
+
 #footerSection * {
   color: white;
   text-decoration: none !important;
 }
+
 #footerSection ul {
   list-style: none;
 }
+
 #footerSection .firstColumn .linksContainer {
   padding-right: 30px;
 }
-.linksContainer .link,
-.reportVisitors li {
+
+.linksContainer .link, .reportVisitors li {
   width: 100%;
   margin-bottom: 10px;
   display: block;
@@ -755,14 +780,17 @@ ul.nav-bar-tool {
   border-bottom: 1px solid white;
   margin-bottom: 10px;
 }
+
 .copyRight {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .linksContainer a {
   transition: 0.3s ease;
 }
+
 .linksContainer a:hover {
   background: white;
   padding: 10px;
@@ -774,11 +802,13 @@ ul.nav-bar-tool {
 .underSliderContainer {
   height: 0;
 }
+
 .flexContainerCenter {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .reserveContainer {
   display: flex;
   align-items: center;
@@ -795,9 +825,11 @@ ul.nav-bar-tool {
   box-shadow: 0px 0px 4px 0px #00000040;
   margin-top: 10px;
 }
+
 .button {
   transition: 0.3s linear;
 }
+
 .button {
   background: #a32c63;
   color: white;
@@ -806,13 +838,12 @@ ul.nav-bar-tool {
   border-radius: 5px;
   cursor: pointer;
 }
-.button:hover,
-.btnreserve:hover {
+
+.button:hover, .btnreserve:hover {
   background: var(--btn-hover) !important;
 }
 
-.reserveContainer .date-info,
-.reserveContainer .guest-info {
+.reserveContainer .date-info, .reserveContainer .guest-info {
   font-size: 16px;
   color: #a32c63;
 }
@@ -837,6 +868,7 @@ ul.nav-bar-tool {
   font-size: 16px;
   color: var(--main-color);
 }
+
 /** end style Online reservation system  **/
 /** Start Style About Us Section **/
 #aboutUsSection {
@@ -846,47 +878,58 @@ ul.nav-bar-tool {
   min-height: 545px;
   filter: brightness(1.02);
 }
+
 #aboutUsSection .mainContainer {
   width: 60vw;
 }
+
 #aboutUsSection .flashDown i {
   color: var(--first-color);
   font-size: 46px;
 }
+
 #aboutUsSection .mainContainer div {
   margin-top: 10px;
 }
+
 #aboutUsSection .mainContainer .shoar {
   text-align: center;
   font-weight: 700;
   font-size: 20px;
 }
+
 #aboutUsSection .mainContainer .hotelName {
   text-align: center;
   font-weight: 850;
   font-size: 48px;
 }
+
 #aboutUsSection .mainContainer .fiveStar {
   text-align: center;
 }
+
 #aboutUsSection .mainContainer > .desc {
   font-size: 14px;
   font-weight: 550;
   line-height: 25.2px;
   text-align: justify;
 }
+
 #aboutUsSection .mainContainer .facilities {
   justify-content: space-evenly;
 }
+
 #aboutUsSection .mainContainer .facilities .Item {
   width: calc(100% / 4 - 30px);
   text-align: center;
   padding: 10px 10px;
 }
+
 #aboutUsSection .mainContainer .moreInformation {
   text-align: center;
   margin-top: 20px;
 }
+
 #aboutUsSection .mainContainer .moreInformation a {
   background: var(--first-color);
   color: var(--second-color);
@@ -895,29 +938,35 @@ ul.nav-bar-tool {
   font-weight: 400;
   padding: 10px 26px;
 }
+
 /** End Style About Us Section **/
 /** start style Rooms of Hotel **/
 #RoomsofHotelSection {
   margin-top: 30px;
   text-align: center;
 }
+
 #RoomsofHotelSection .Title .shoar {
   font-weight: 700;
   font-size: 20px;
 }
+
 #RoomsofHotelSection .Title .name {
   margin-top: 10px;
   font-weight: 850;
   font-size: 40px;
 }
+
 .swiper {
   width: 100%;
   height: 100%;
 }
+
 #RoomsofHotelSection > div > .mainContainer {
   margin: 40px 0;
   height: 480px;
 }
+
 #RoomsofHotelSection .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -928,12 +977,14 @@ ul.nav-bar-tool {
   position: relative;
   cursor: pointer;
 }
+
 #RoomsofHotelSection .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 #RoomsofHotelSection .basePrice {
   position: absolute;
   left: -30px;
@@ -946,23 +997,27 @@ ul.nav-bar-tool {
   font-weight: 550px;
   font-size: 14px;
 }
+
 #RoomsofHotelSection .desc {
   position: absolute;
   bottom: 15px;
   right: 23px;
   z-index: 2;
 }
+
 #RoomsofHotelSection .desc div {
   color: var(--second-color);
   text-align: right;
   font-weight: 700;
   font-size: 20px;
 }
+
 #RoomsofHotelSection .roomsImg {
   width: 100%;
   position: relative;
   z-index: 0;
 }
+
 #RoomsofHotelSection .roomsImg:after {
   content: "";
   position: absolute;
@@ -970,40 +1025,39 @@ ul.nav-bar-tool {
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    linear-gradient(
-      180deg,
-      rgba(145, 52, 107, 0) 0%,
-      rgba(145, 52, 107, 0.3) 50%,
-      rgba(145, 52, 107, 0.85) 100%
-    );
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), linear-gradient( 180deg, rgba(145, 52, 107, 0) 0%, rgba(145, 52, 107, 0.3) 50%, rgba(145, 52, 107, 0.85) 100% );
   background-size: 100% 100%;
   background-repeat: no-repeat;
   z-index: 1;
 }
+
 #RoomsofHotelSection .swiper-pagination * {
   font-family: "AbarLowFaNum Regular WOFF";
 }
+
 #RoomsofHotelSection .swiper-pagination {
   z-index: 1;
 }
+
 #RoomsofHotelSection .swiper-button-next {
   top: auto !important;
   bottom: 3px;
   left: 45%;
 }
+
 #RoomsofHotelSection .swiper-button-prev {
   top: auto !important;
   bottom: 3px;
   right: 45%;
 }
-#RoomsofHotelSection .swiper-button-next:after,
-#RoomsofHotelSection .swiper-button-prev:after {
+
+#RoomsofHotelSection .swiper-button-next:after, #RoomsofHotelSection .swiper-button-prev:after {
   font-size: 16px !important;
   color: var(--main-color);
   font-weight: 900;
   z-index: 10;
 }
+
 #RoomsofHotelSection .hoverCard {
   position: absolute;
   display: flex;
@@ -1011,25 +1065,27 @@ ul.nav-bar-tool {
   justify-content: center;
   align-items: center;
 }
-#RoomsofHotelSection .swiper-slide,
-#RoomsofHotelSection .swiper-slide .hoverCard,
-#RoomsofHotelSection .swiper-slide .baseCard,
-#RoomsofHotelSection .roomsImg:after {
+
+#RoomsofHotelSection .swiper-slide, #RoomsofHotelSection .swiper-slide .hoverCard, #RoomsofHotelSection .swiper-slide .baseCard, #RoomsofHotelSection .roomsImg:after {
   transition: 0.3s ease-in-out;
 }
+
 #RoomsofHotelSection .swiper-slide:hover .baseCard {
   width: 0;
   height: 0;
   opacity: 0;
 }
+
 #RoomsofHotelSection .swiper-slide:hover .hoverCard {
   width: 100%;
   height: 100%;
   opacity: 1;
 }
+
 #RoomsofHotelSection .swiper-slide:hover .roomsImg:after {
   background: #000000bf;
 }
+
 #RoomsofHotelSection .swiper-slide .hoverCard {
   opacity: 0;
   padding: 40px;
@@ -1038,26 +1094,31 @@ ul.nav-bar-tool {
   justify-content: center;
   align-items: center;
 }
+
 #RoomsofHotelSection .swiper-slide .hoverCard div {
   text-align: right;
 }
+
 #RoomsofHotelSection .swiper-slide .hoverCard .name {
   font-weight: 700;
   font-size: 20px;
   color: var(--second-color);
   margin-bottom: 10px;
 }
+
 #RoomsofHotelSection .swiper-slide .hoverCard .detail {
   font-weight: 400;
   font-size: 13px;
   line-height: 23.4px;
   color: var(--second-color);
 }
+
 #RoomsofHotelSection .swiper-slide .hoverCard .link {
   margin-top: 40px;
   padding-top: 20px;
   text-align: left;
 }
+
 #RoomsofHotelSection .swiper-slide .hoverCard .link a {
   background: var(--first-color);
   color: var(--second-color);
@@ -1065,33 +1126,41 @@ ul.nav-bar-tool {
   font-size: 14px;
   font-weight: 400;
 }
+
 /** end style rooms of hotel **/
 /** start style resturant section **/
 #resturantSection .shoar {
   font-weight: 700;
   font-size: 20px;
 }
+
 #resturantSection .name {
   font-weight: 850;
   font-size: 40px;
 }
+
 #resturantSection .card-title {
   font-size: 24px;
   font-weight: 700;
 }
+
 #resturantSection .card-body a {
   font-size: 16px;
   font-weight: 400;
 }
+
 #resturantSection .card-body {
   text-align: center;
 }
+
 #resturantSection .card-body a {
   color: var(--first-color);
 }
+
 #resturantSection .card-body a .hicon {
   rotate: 180deg;
 }
+
 #resturantSection .pagination {
   margin-top: 10px;
   display: flex;
@@ -1099,19 +1168,23 @@ ul.nav-bar-tool {
   align-items: center;
   font-family: "AbarLowFaNum Regular WOFF";
 }
+
 #resturantSection .offer-pagination-1 {
   width: auto;
 }
+
 #resturantSection .card {
   background: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 #resturantSection .card a {
   position: relative;
   z-index: 0;
 }
+
 #resturantSection .card-body {
   width: 90%;
   margin-top: -30px;
@@ -1119,32 +1192,39 @@ ul.nav-bar-tool {
   z-index: 1;
   background: var(--second-color);
 }
+
 /** end style resturant section **/
 /** start style saloons section **/
 .sallonsSection .shoar {
   font-weight: 700;
   font-size: 20px;
 }
+
 .sallonsSection .name {
   font-weight: 850;
   font-size: 40px;
 }
+
 .sallonsSection .cardContainer {
   justify-content: space-between;
   text-align: right;
   flex-wrap: wrap;
 }
+
 .sallonsSection .room-slide-item.active .cardContainer {
   flex-wrap: wrap;
   justify-content: space-between !important;
 }
+
 .sallonsSection .room-slide-item.active .cardContainer > div {
   width: max-content !important;
   margin-right: unset !important;
 }
+
 .sallonsSection .room-slide-item.active .cardContainer .card-title {
   margin-bottom: 0 !important;
 }
+
 .sallonsSection .room-slide-item .card-link a.btn {
   width: 125px;
   font-size: 16px;
@@ -1153,13 +1233,16 @@ ul.nav-bar-tool {
   justify-content: space-around;
   align-items: center;
 }
+
 .sallonsSection .room-slide-item .card-link a.btn.btnreserve {
   background: var(--first-color);
   border: none !important;
 }
+
 .sallonsSection .room-slide-item .card {
   position: relative;
 }
+
 .sallonsSection .room-slide-item .card:before {
   content: "";
   bottom: 0;
@@ -1167,47 +1250,53 @@ ul.nav-bar-tool {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.5) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
+  background: linear-gradient( 0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100% );
 }
+
 .sallonsSection .room-slide-item .card .card-desc {
   font-size: 16px;
   font-weight: 550;
 }
+
 .sallonsSection .room-slide-item .card .card-title {
   font-size: 24px !important;
   font-weight: 700 !important;
 }
+
 /** end style saloons section **/
 /** start style offers section **/
 #offers .shoar {
   font-weight: 700;
   font-size: 20px;
 }
+
 #offers .name {
   font-weight: 850;
   font-size: 40px;
 }
+
 #offers .card-title {
   font-size: 24px;
   font-weight: 700;
 }
+
 #offers .card-body a {
   font-size: 16px;
   font-weight: 400;
 }
+
 #offers .card-body {
   text-align: center;
 }
+
 #offers .card-body a {
   color: var(--first-color);
 }
+
 #offers .card-body a .hicon {
   rotate: 180deg;
 }
+
 #offers .pagination {
   margin-top: 10px;
   display: flex;
@@ -1215,19 +1304,23 @@ ul.nav-bar-tool {
   align-items: center;
   font-family: "AbarLowFaNum Regular WOFF";
 }
+
 #offers .offer-pagination-1 {
   width: auto;
 }
+
 #offers .card {
   background: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 #offers .card a {
   position: relative;
   z-index: 0;
 }
+
 #offers .card-body {
   width: 90%;
   margin-top: -30px;
@@ -1237,3 +1330,259 @@ ul.nav-bar-tool {
 }
 
 /** end style offers section **/
+/** start style guests section **/
+#guests .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+#guests .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  height: 128px;
+  width: calc(100% / 7 - calc(430px / 6) ) !important;
+  /* background: #f5f5f5; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+}
+
+#guests .swiper-slide-active {
+  width: calc(100% / 7 + 288px) !important;
+}
+
+#guests .swiper-slide-active, #guests .swiper-slide-prev {
+  margin-right: 10px !important;
+}
+
+#guests .swiper-slide img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+#guests .swiper-slide.swiper-slide-active .container {
+  width:400px;
+  height:100px;
+}
+#guests .swiper-slide .container {
+  display: flex;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: #f5f5f5;
+}
+#guests .swiper-slide-active .container{
+  scale: 1.2;
+}
+
+#guests .swiper-slide .container .desc {opacity: 0;}
+
+#guests .swiper-slide {
+  overflow: hidden;
+}
+
+#guests .container {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#guests .img {
+  width: 100px;
+  height: 100px;
+}
+
+#guests .swiper-slide-active .img {
+  width: 128px;
+  position: relative;
+  z-index: 1;
+}
+
+#guests .swiper-slide.swiper-slide-active .desc {
+  transform: translateX(0%) !important;
+  opacity: 1;
+  position: relative;
+  z-index: 0;
+}
+#guest .row{
+  padding:0 20px;
+  position: relative;
+}
+#guests .swiper-slide .desc {
+  transform: translateX(150%);
+  position: absolute;
+  width: 80%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s ease-in-out;
+  top: 20%;
+}
+#guests .swiper-slide .desc .name{
+  font-size: 24px;
+  font-weight:700;
+  font-family:'Abar vf';
+  color:var(--first-color);
+}
+#guests .swiper-slide .desc .position{
+  font-size: 16px;
+  font-weight:400;
+  font-family:'Abar vf';
+}
+#guests .swiper-button-next{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  justify-content: end;
+  align-items: center;
+}
+#guests .swiper-button-next:after{
+  font-size: 24px;
+  color:var(--main-color);
+  font-weight: 800;
+}
+#guests .swiper-button-prev{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  justify-content: start;
+  align-items: center;
+}
+#guests .swiper-button-prev:after{
+  font-size: 24px;
+  color:var(--main-color);
+  font-weight: 800;
+}
+#guest .swiper.mySwiper{
+  position: unset !important;
+}
+/** end style guest section **/
+/*** start style full wide banner section ***/
+#banner{
+  margin-top:90px;
+}
+.fullWideBanner img{
+  width:100%;
+  height: auto;
+}
+/*** end style full wide banner section ***/
+/*** start style facilities section ***/
+#facilities .shoar{
+  font-size:20px;
+  font-weight:700;
+  
+}
+#facilities .name{
+  font-size:40px;
+  font-weight:850;
+}
+#facilities [class*=fa],
+#facilities .hicon{
+  color:var(--first-color) !important;
+}
+#facilities .border{
+  border: 1px solid #00000033;
+  background: var(--main-bg);
+}
+#facilities .h6{
+  font-size: 20px;
+  font-weight: 700;
+}
+#facilities p{
+  font-size: 14px;
+  font-weight:400 ;
+}
+#facilities a.btn.btn-primary{
+  position: relative;
+
+}
+#facilities a.btn i.fa-angle-left{
+  position: absolute;
+  top: 32%;
+  left: 6%;
+}
+#facilities .far.fa-angle-left{
+  color:#ffffff !important;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/*** end style facilities section ***/
+/*** start style news section ***/
+#news .shoar{
+  font-size: 20px;
+  font-weight: 700;
+}
+#news .name{
+  font-size: 40px;
+  font-weight: 850;
+}
+#news .card-title  {
+  font-size: 24px;
+  font-weight: 700;
+}
+#news .card-link span {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--primary-btn);
+}
+#news .card-body{
+  position:relative;
+  min-height: 110px;
+}
+#news .card-link{
+  position:absolute;
+  bottom:10px;
+  left:36%;
+  
+}
+#news .news-pagination {
+  font-family: 'Abar Vf-num';
+}
+/*** end style news section ***/
+/*** start style tripadviser section **/
+#clientSay .title{
+  font-weight: 700;
+  font-size: 20px;
+}
+#clientSay .name{
+  font-weight: 850;
+  font-size: 40px;
+}
+#clientSay .personalDesc p{
+  font-weight: 400;
+  font-size: 12px;
+  font-family: 'Abar Vf';
+}
+#clientSay .personalName,
+#clientSay .commentsNum{
+  font-size: 12px;
+  font-weight: 400;
+}
+#clientSay .regCom{
+  font-size: 16px;
+  font-weight: 400;
+}
+/*** end style tripadviser section **/
+/*** start style footer **/
+footer{
+  font-size: 14px;
+  font-weight: 550;
+  line-height: 25.2px;
+}
+footer .col-2 .address,
+footer .col-1 .eNamad{
+  margin-top:40px;
+}
+footer .col-3 .linksContainer,
+footer .col-5 .linksContainer{
+  margin-top:20px;
+}
+footer .col-4 .linksContainer{
+  margin-top:20px;
+  margin-bottom: 10px;
+}
+
+/*** end style footer **/
