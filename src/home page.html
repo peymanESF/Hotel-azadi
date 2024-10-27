@@ -1245,7 +1245,7 @@
 					<!-- /Heading -->
 					<!-- Testimonials -->
 					<div class="position-relative mb-8">
-						<div class="swiper client-say-slider pt-6 ps-6 pe-6 pb-3 border">
+						<div class="swiper client-say-slider pt-6 ps-6 pe-6 pb-3 ">
 							<div class="swiper-wrapper">
 								<div class="swiper-slide">
 									<!-- Blockquote -->
@@ -1254,7 +1254,7 @@
 											<img src="img/tripadviser/USER.png" class="img-fluid rounded rounded-circle shadow-sm mb-6" width="80" alt="">
 										</span>
 										<div class="flex-md-grow-1">
-											<blockquote class="d-block blockquote fst-italic mb-2 personalDesc">
+											<blockquote class="d-block blockquote  mb-2 personalDesc">
 												<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد.</p>
 											</blockquote>
 											<span class="d-block mb-5"><span class="star-rate-view star-rate-size-sm"><span class="star-value rate-45"></span></span></span>
@@ -1271,7 +1271,7 @@
 											<img src="img/tripadviser/USER.png" class="img-fluid rounded rounded-circle shadow-sm mb-6" width="80" alt="">
 										</span>
 										<div class="flex-md-grow-1">
-											<blockquote class="d-block blockquote fst-italic mb-2 personalDesc">
+											<blockquote class="d-block blockquote  mb-2 personalDesc">
 												<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد.</p>
 											</blockquote>
 											<span class="d-block mb-5"><span class="star-rate-view star-rate-size-sm"><span class="star-value rate-45"></span></span></span>
@@ -1288,7 +1288,7 @@
 											<img src="img/tripadviser/USER.png" class="img-fluid rounded rounded-circle shadow-sm mb-6" width="80" alt="">
 										</span>
 										<div class="flex-md-grow-1">
-											<blockquote class="d-block blockquote fst-italic mb-2 personalDesc">
+											<blockquote class="d-block blockquote  mb-2 personalDesc">
 												<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد.</p>
 											</blockquote>
 											<span class="d-block mb-5"><span class="star-rate-view star-rate-size-sm"><span class="star-value rate-45"></span></span></span>
@@ -1532,13 +1532,13 @@
 					<div class="title">
 						تماس با ما
 					</div>
-					<div class="linksContainer">
+					<div class="linksContainer text-center">
 						۰۲۱-۲۹۱۱۲
 					</div>
 					<div class="title">
 						فکس مدیریت:
 					</div>
-					<div class="linksContainer">
+					<div class="linksContainer text-center">
 						۰۲۱-۲۲۳۴۴۴۷۸
 					</div>
 
@@ -1668,18 +1668,20 @@
 	</script>
 	<!-- Initialize Swiper -->
 	<script>
-		var swiper = new Swiper("#guests.mySwiper", {
+		var swiper = new Swiper("#guests", {
 			slidesPerView: 1,
-                spaceBetween: 0,
-                speed: 600,
-                loop: !0,
-				centeredSlides: true,
-		   navigation: {
+            spaceBetween: 0,
+            speed: 600,
+            loop: !0,
+			simulateTouch: false, // غیرفعال کردن تغییر با ماوس
+    		preventClicks: true, 
+			allowTouchMove:false,
+			centeredSlides: true,
+			noSwiping :false,
+		    navigation: {
 			nextEl: ".swiper-button-next",
 			prevEl: ".swiper-button-prev",
-		  },
-		  
-		  
+		  },		  
 		  breakpoints: {
 			640: {
 			  slidesPerView: 2,

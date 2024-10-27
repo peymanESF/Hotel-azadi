@@ -6,6 +6,7 @@
   --second-color: #ffffff;
   --btn-hover: #6d1c4c;
   --primary-btn:#91346b;
+  --second-bg:#1e1e1e;
 }
 [data-bs-theme="light"] a:hover span{
   --primary-btn:#ffffff;
@@ -17,6 +18,7 @@
   --first-color: #f4f4f4;
   --second-color: #000000;
   --btn-hover: #6d1c4c;
+  --second-bg:#ffffff;
 }
 .fa-num,
 [class*=swiper-pagination]{
@@ -753,16 +755,20 @@ ul.nav-bar-tool {
 /*** footer ***/
 #footerSection {
   background: var(--first-color);
-  padding: 20px;
+  padding: 0;
 }
 
 #footerSection * {
-  color: white;
+  color: #ffffff;
   text-decoration: none !important;
 }
-
+#footerSection .copyRight span{
+  color:var(--second-color) !important;
+}
 #footerSection ul {
+  margin-top: 10px;
   list-style: none;
+  padding: 0;
 }
 
 #footerSection .firstColumn .linksContainer {
@@ -777,14 +783,18 @@ ul.nav-bar-tool {
 
 #footerSection .row {
   height: 100%;
-  border-bottom: 1px solid white;
   margin-bottom: 10px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.copyRight {
+#footerSection .copyRight {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
+  background: var(--second-bg);
 }
 
 .linksContainer a {
@@ -1551,10 +1561,15 @@ ul.nav-bar-tool {
   font-weight: 850;
   font-size: 40px;
 }
+#clientSay .client-say-slider{
+  border: 1px solid #00000033;
+  background:var(--second-color);
+}
 #clientSay .personalDesc p{
   font-weight: 400;
   font-size: 12px;
   font-family: 'Abar Vf';
+  line-height: 20.04px;
 }
 #clientSay .personalName,
 #clientSay .commentsNum{
@@ -1584,5 +1599,25 @@ footer .col-4 .linksContainer{
   margin-top:20px;
   margin-bottom: 10px;
 }
-
+footer .col-2,
+footer .col-3,
+footer .col-4{
+  border-left: 1px solid #ffffff;
+}
+.brands  .icons ul,
+.contactUs .icons ul{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactUs .title{
+  margin-bottom: 10px;
+}
+.brands  .icons ul li,
+.contactUs .icons ul li{
+  margin-left: 10px;
+}
+#footerSection > div.row > div{
+  margin:15px 0;
+}
 /*** end style footer **/
