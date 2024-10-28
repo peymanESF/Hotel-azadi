@@ -725,6 +725,19 @@ ul.nav-bar-tool {
     width: 50%;
     height: 100px !important;
   }
+  .mobileHeadLogo{
+    filter:brightness(0.3);
+  }
+  .mobileHeadTitle{
+    margin:0 !important;
+  }
+  #offcanvasNavbar .offcanvas-header >a {
+    /* justify-content:center !important; */
+    /* align-items:center !important; */
+  }
+  #offcanvasNavbar .offcanvas-header .btn-close{
+    margin: 0px 10px 0 0 !important;
+  }
   .offcanvas-body ul:nth-child(4) {
     order: 2;
   }
@@ -1625,6 +1638,24 @@ ul.nav-bar-tool {
 @media (max-width: 768px) {
   #guest {
     overflow: hidden;
+  }
+   #guests .swiper-wrapper{
+    padding:0 20px;
+  }
+  #guests .swiper-slide.swiper-slide-active .container{
+    width:300px;
+  }
+  #guests .swiper-slide .desc .name{
+    font-size:18px;
+  }
+  #guests .swiper-slide .desc .position{
+    font-size:14px;
+  }
+  #guests .swiper-button-prev{
+    right:20px;
+  }
+  #guests .swiper-button-next{
+    left:20px;
   }
 }
 /** end style guest section **/
