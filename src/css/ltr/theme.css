@@ -705,6 +705,9 @@ ul.nav-bar-tool {
   padding: 0;
 }
 @media (max-width: 768px) {
+  .changeLanguage i,#toggle-theme{
+    color: var(--main-bg-color) !important;   
+  }
   .offcanvas-body.justify-content-end {
     display: flex;
     flex-wrap: wrap;
