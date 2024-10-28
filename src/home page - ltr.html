@@ -9,8 +9,8 @@
 	<!-- Latest compiled and minified CSS -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 	<!-- load custom theme css -->
-	<link href="css/theme.css" rel="stylesheet">
-	<link href="css/bundle.css" rel="stylesheet">
+	<link href="css/ltr/theme.css" rel="stylesheet">
+	<link href="css/ltr/bundle.css" rel="stylesheet">
 	<!-- fontawesome -->
 	<link rel='stylesheet' type='text/css' href='fonts/font-awesome/fontAwesome-Pro-5.12.0/min/all.min.css' />
 	<!-- swipper -->
@@ -55,7 +55,7 @@
 				<nav class="navbar navbar-expand-xl">
 					<div class="container-fluid">
 						<!-- offcanvas Navbar -->
-						<div class="offcanvas offcanvas-navbar offcanvas-end border-end-0" tabindex="-1"
+						<div class="offcanvas offcanvas-navbar offcanvas-start border-end-0" tabindex="-1"
 							id="offcanvasNavbar">
 							<!-- Offcanvas header -->
 							<div class="offcanvas-header border-bottom">
@@ -123,8 +123,9 @@
 									<li class="nav-item dropdown">
 										<a class="nav-link dropdown-toggle-hover fw-medium active" href="#"
 											data-bs-display="static">
-											<i class="fas fa-caret-down" style="color: #ffffff;"></i>
+
 											<span><i class="fal fa-globe fa-lg" style="color: #ffffff;"></i></span>
+											<i class="fas fa-caret-down" style="color: #ffffff;"></i>
 
 										</a>
 										<ul class="dropdown-menu border-0 mt-xl-8" data-bs-popper="static">
@@ -623,7 +624,7 @@
 	<!-- end rooms of hotel section -->
 	<!-- start resturant section -->
 	<section id="resturantSection" class="pt-16 pb-16 bg-body-tertiary position-relative">
-		<div class="bg-primary position-absolute end-0 top-0 bottom-0 w-20 image-wrapper bg-image bg-cover d-none d-xl-block"
+		<div class="bg-primary position-absolute start-0 top-0 bottom-0 w-20 image-wrapper bg-image bg-cover d-none d-xl-block"
 			data-cue="fadeIn" data-image-src="img/bg-row.jpg"
 			style="    background-image: linear-gradient(45deg, rgba(145, 52, 107, 95%), rgba(145, 52, 107, 95%)), url(img/bg-row.jpg);
     animation-name: fadeIn;animation-name: fadeIn;animation-duration: 600ms;animation-timing-function: ease;animation-delay: 0ms;animation-direction: normal;animation-fill-mode: both;"
@@ -725,7 +726,7 @@
 					<div class="pagination w-100">
 						<span role="button" class="offer-prev-1 p-4 lh-1 text-primary" tabindex="0"
 							aria-label="Previous slide">
-							<i class="hicon hicon-thin-arrow-left text-primary"></i>
+							<i class="hicon hicon-thin-arrow-right text-primary"></i>
 						</span>
 						<span
 							class="offer-pagination-1 p-4 lh-1 fs-5 swiper-pagination-fraction swiper-pagination-horizontal"><span>
@@ -733,7 +734,7 @@
 								class="swiper-pagination-total fa-num"></span></span>
 						<span role="button" class="offer-next-1 p-4 lh-1 text-primary" tabindex="0"
 							aria-label="Next slide">
-							<i class="hicon hicon-thin-arrow-right"></i>
+							<i class="hicon hicon-thin-arrow-left"></i>
 						</span>
 					</div>
 				</div>
@@ -869,7 +870,7 @@
 	<!-- end saloons section -->
 	<!-- start offers section-->
 	<section id="offers" class="pt-16 pb-16 bg-body-tertiary position-relative">
-		<div class="bg-primary position-absolute start-0 top-0 bottom-0 w-20 image-wrapper bg-image bg-cover d-none d-xl-block"
+		<div class="bg-primary position-absolute end-0 top-0 bottom-0 w-20 image-wrapper bg-image bg-cover d-none d-xl-block"
 			data-cue="fadeIn" data-image-src="img/offers/offer-bg.jpg"
 			style="background-image: linear-gradient(45deg, rgba(145, 52, 107, 95%), rgba(145, 52, 107, 95%)), url(img/offers/offer-bg.jpg);">
 		</div>
@@ -894,11 +895,11 @@
 						</div>
 						<div class="d-inline-flex align-items-center  text-center justify-content-between">
 							<span role="button" class="offer-prev-2 p-4 lh-1 text-primary">
-								<i class="hicon hicon-thin-arrow-left text-primary"></i>
+								<i class="hicon hicon-thin-arrow-right text-primary"></i>
 							</span>
 							<span class="offer-pagination-2 p-4 lh-1 fs-5"></span>
 							<span role="button" class="offer-next-2 p-4 lh-1 text-primary">
-								<i class="hicon hicon-thin-arrow-right"></i>
+								<i class="hicon hicon-thin-arrow-left"></i>
 							</span>
 						</div>
 					</div>
@@ -1203,11 +1204,11 @@
 				<div class="text-center">
 					<div class="d-inline-flex align-items-center fs-4">
 						<span role="button" class="news-prev text-primary p-4 lh-1">
-							<i class="hicon hicon-thin-arrow-left"></i>
+							<i class="hicon hicon-thin-arrow-right"></i>
 						</span>
 						<span class="news-pagination p-4 lh-1 fs-5"></span>
 						<span role="button" class="news-next text-primary p-4 lh-1">
-							<i class="hicon hicon-thin-arrow-right"></i>
+							<i class="hicon hicon-thin-arrow-left"></i>
 						</span>
 					</div>
 				</div>
@@ -1317,13 +1318,13 @@
 							</div>
 						</div>
 						<div
-							class="d-inline-flex align-items-center fs-4 text-center justify-content-between position-absolute bottom-0 left-0 start-0 z-3">
+							class="d-inline-flex align-items-center fs-4 text-center justify-content-between position-absolute bottom-0 left-0 end-0 z-3">
 							<span role="button" class="client-say-prev text-primary p-4 lh-1 fa-num">
-								<i class="hicon hicon-thin-arrow-left"></i>
+								<i class="hicon hicon-thin-arrow-right"></i>
 							</span>
 							<span class="client-say-pagination p-4 lh-1 fs-6"></span>
 							<span role="button" class="client-say-next text-primary p-4 lh-1 fa-num">
-								<i class="hicon hicon-thin-arrow-right"></i>
+								<i class="hicon hicon-thin-arrow-left"></i>
 							</span>
 						</div>
 					</div>
@@ -1370,7 +1371,7 @@
 
 
 				<!-- Swiper -->
-				<div class="swiper guests" id="guests" dir="rtl">
+				<div class="swiper guests" id="guests">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
 							<div class="container">

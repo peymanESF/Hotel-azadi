@@ -25632,6 +25632,34 @@ var theme = {
                     }
                 }
             }),
+            document.querySelector(".offer-slider-2") && new Swiper(".guests", {
+                slidesPerView: 1,
+                spaceBetween: 0,
+                speed: 600,
+                loop: !0,
+                centeredSlides: true,
+                clickable: true,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                breakpoints: {
+                    640: {
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                    },
+                    768: {
+                        slidesPerView: 1,
+                        spaceBetween: 40,
+                    },
+                    960: {
+                        slidesPerView: 7,
+                        spaceBetween: 10,
+                        initialSlide: 4,
+
+                    },
+                }
+            }),
             document.querySelector(".news-slider") && new Swiper(".news-slider", {
                 slidesPerView: 1,
                 spaceBetween: 0,

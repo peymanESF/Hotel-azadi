@@ -8,7 +8,7 @@
   --btn-hover: #6d1c4c;
   --primary-btn: #91346b;
   --second-bg: #1e1e1e;
-  --card-bg: #f5f5f5;
+  --card-bg:#f5f5f5;
 }
 [data-bs-theme="light"] a:hover span {
   --primary-btn: #ffffff;
@@ -21,7 +21,7 @@
   --second-color: #000000;
   --btn-hover: #6d1c4c;
   --second-bg: #ffffff;
-  --card-bg: #000000;
+  --card-bg:#000000;
 }
 .fa-num,
 [class*="swiper-pagination"] {
@@ -52,168 +52,168 @@
 /********** FONTS **********/
 @font-face {
   font-family: "Abar VF";
-  src: url("../fonts/Abar-vf.woff2");
+  src: url("../../fonts/Abar-vf.woff2");
 }
 
 @font-face {
   font-family: "AbarLowFaNum Regular WOFF";
-  src: url("../fonts/AbarLowFaNum-Regular.woff");
+  src: url("../../fonts/AbarLowFaNum-Regular.woff");
 }
 
 @font-face {
   font-family: "AbarLowFaNum SemiBold WOFF";
-  src: url("../fonts/AbarLowFaNum-SemiBold.woff");
+  src: url("../../fonts/AbarLowFaNum-SemiBold.woff");
 }
 
 @font-face {
   font-family: "AbarLowFaNum Bold WOFF";
-  src: url("../fonts/AbarLowFaNum-Bold.woff");
+  src: url("../../fonts/AbarLowFaNum-Bold.woff");
 }
 
 @font-face {
   font-family: "AbarLowFaNum ExtraBold WOFF";
-  src: url("../fonts/AbarLowFaNum-ExtraBold.woff");
+  src: url("../../fonts/AbarLowFaNum-ExtraBold.woff");
 }
 
 @font-face {
   font-family: "AbarLowFaNum Black WOFF";
-  src: url("../fonts/AbarLowFaNum-Black.woff");
+  src: url("../../fonts/AbarLowFaNum-Black.woff");
 }
 
 @font-face {
   font-family: "AbarLowFaNum Regular WOFF2";
-  src: url("../fonts/AbarLowFaNum-Regular.woff2");
+  src: url("../../fonts/AbarLowFaNum-Regular.woff2");
 }
 
 @font-face {
   font-family: "AbarLowFaNum SemiBold WOFF2";
-  src: url("../fonts/AbarLowFaNum-SemiBold.woff2");
+  src: url("../../fonts/AbarLowFaNum-SemiBold.woff2");
 }
 
 @font-face {
   font-family: "AbarLowFaNum Bold WOFF2";
-  src: url("../fonts/AbarLowFaNum-Bold.woff2");
+  src: url("../../fonts/AbarLowFaNum-Bold.woff2");
 }
 
 @font-face {
   font-family: "AbarLowFaNum ExtraBold WOFF2";
-  src: url("../fonts/AbarLowFaNum-ExtraBold.woff2");
+  src: url("../../fonts/AbarLowFaNum-ExtraBold.woff2");
 }
 
 @font-face {
   font-family: "AbarLowFaNum Black WOFF2";
-  src: url("../fonts/AbarLowFaNum-Black.woff2");
+  src: url("../../fonts/AbarLowFaNum-Black.woff2");
 }
 
 @font-face {
   font-family: "AbarMidFaNum Regular WOFF";
-  src: url("../fonts/AbarMidFaNum-Regular.woff");
+  src: url("../../fonts/AbarMidFaNum-Regular.woff");
 }
 
 @font-face {
   font-family: "AbarMidFaNum SemiBold WOFF";
-  src: url("../fonts/AbarMidFaNum-SemiBold.woff");
+  src: url("../../fonts/AbarMidFaNum-SemiBold.woff");
 }
 
 @font-face {
   font-family: "AbarMidFaNum Bold WOFF";
-  src: url("../fonts/AbarMidFaNum-Bold.woff");
+  src: url("../../fonts/AbarMidFaNum-Bold.woff");
 }
 
 @font-face {
   font-family: "AbarMidFaNum ExtraBold WOFF";
-  src: url("../fonts/AbarMidFaNum-ExtraBold.woff");
+  src: url("../../fonts/AbarMidFaNum-ExtraBold.woff");
 }
 
 @font-face {
   font-family: "AbarMidFaNum Black WOFF";
-  src: url("../fonts/AbarMidFaNum-Black.woff");
+  src: url("../../fonts/AbarMidFaNum-Black.woff");
 }
 
 @font-face {
   font-family: "AbarMidFaNum Regular WOFF2";
-  src: url("../fonts/AbarMidFaNum-Regular.woff2");
+  src: url("../../fonts/AbarMidFaNum-Regular.woff2");
 }
 
 @font-face {
   font-family: "AbarMidFaNum SemiBold WOFF2";
-  src: url("../fonts/AbarMidFaNum-SemiBold.woff2");
+  src: url("../../fonts/AbarMidFaNum-SemiBold.woff2");
 }
 
 @font-face {
   font-family: "AbarMidFaNum Bold WOFF2";
-  src: url("../fonts/AbarMidFaNum-Bold.woff2");
+  src: url("../../fonts/AbarMidFaNum-Bold.woff2");
 }
 
 @font-face {
   font-family: "AbarMidFaNum ExtraBold WOFF2";
-  src: url("../fonts/AbarMidFaNum-ExtraBold.woff2");
+  src: url("../../fonts/AbarMidFaNum-ExtraBold.woff2");
 }
 
 @font-face {
   font-family: "AbarMidFaNum Black WOFF2";
-  src: url("../fonts/AbarMidFaNum-Black.woff2");
+  src: url("../../fonts/AbarMidFaNum-Black.woff2");
 }
 
 @font-face {
   font-family: "AbarHighFaNum Regular WOFF";
-  src: url("../fonts/AbarHighFaNum-Regular.woff");
+  src: url("../../fonts/AbarHighFaNum-Regular.woff");
 }
 
 @font-face {
   font-family: "AbarHighFaNum SemiBold WOFF";
-  src: url("../fonts/AbarHighFaNum-SemiBold.woff");
+  src: url("../../fonts/AbarHighFaNum-SemiBold.woff");
 }
 
 @font-face {
   font-family: "AbarHighFaNum Bold WOFF";
-  src: url("../fonts/AbarHighFaNum-Bold.woff");
+  src: url("../../fonts/AbarHighFaNum-Bold.woff");
 }
 
 @font-face {
   font-family: "AbarHighFaNum ExtraBold WOFF";
-  src: url("../fonts/AbarHighFaNum-ExtraBold.woff");
+  src: url("../../fonts/AbarHighFaNum-ExtraBold.woff");
 }
 
 @font-face {
   font-family: "AbarHighFaNum Black WOFF";
-  src: url("../fonts/AbarHighFaNum-Black.woff");
+  src: url("../../fonts/AbarHighFaNum-Black.woff");
 }
 
 @font-face {
   font-family: "AbarHighFaNum Regular WOFF2";
-  src: url("../fonts/AbarHighFaNum-Regular.woff2");
+  src: url("../../fonts/AbarHighFaNum-Regular.woff2");
 }
 
 @font-face {
   font-family: "AbarHighFaNum SemiBold WOFF2";
-  src: url("../fonts/AbarHighFaNum-SemiBold.woff2");
+  src: url("../../fonts/AbarHighFaNum-SemiBold.woff2");
 }
 
 @font-face {
   font-family: "AbarHighFaNum Bold WOFF2";
-  src: url("../fonts/AbarHighFaNum-Bold.woff2");
+  src: url("../../fonts/AbarHighFaNum-Bold.woff2");
 }
 
 @font-face {
   font-family: "AbarHighFaNum ExtraBold WOFF2";
-  src: url("../fonts/AbarHighFaNum-ExtraBold.woff2");
+  src: url("../../fonts/AbarHighFaNum-ExtraBold.woff2");
 }
 
 @font-face {
   font-family: "AbarHighFaNum Black WOFF2";
-  src: url("../fonts/AbarHighFaNum-Black.woff2");
+  src: url("../../fonts/AbarHighFaNum-Black.woff2");
 }
 
 @font-face {
   font-family: IranYekan;
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/IranYekan.eot");
-  src: url("../fonts/IranYekan.eot?#iefix") format("embedded-opentype"),
-    /* IE6-8 */ url("../fonts/IranYekan.woff2") format("woff2"),
+  src: url("../../fonts/IranYekan.eot");
+  src: url("../../fonts/IranYekan.eot?#iefix") format("embedded-opentype"),
+    /* IE6-8 */ url("../../fonts/IranYekan.woff2") format("woff2"),
     /* FF39+,Chrome36+, Opera24+*/ url("~/fonts/IranYekan.woff") format("woff"),
-    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/IranYekan.ttf")
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../../fonts/IranYekan.ttf")
       format("truetype");
 }
 
@@ -221,23 +221,23 @@
   font-family: "IranYekanLight";
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/IRANYekanWebLight.eot");
-  src: url("../fonts/IRANYekanWebLight.eot") format("embedded-opentype"),
-    url("../fonts/fontawesome-webfont.svg") format("svg"),
-    url("../fonts/IRANYekanWebLight.ttf") format("truetype"),
-    url("../fonts/IRANYekanWebLight.woff") format("woff")
-      url("../fonts/IRANYekanWebLight.woff2") format("woff2");
+  src: url("../../fonts/IRANYekanWebLight.eot");
+  src: url("../../fonts/IRANYekanWebLight.eot") format("embedded-opentype"),
+    url("../../fonts/fontawesome-webfont.svg") format("svg"),
+    url("../../fonts/IRANYekanWebLight.ttf") format("truetype"),
+    url("../../fonts/IRANYekanWebLight.woff") format("woff")
+      url("../../fonts/IRANYekanWebLight.woff2") format("woff2");
 }
 
 @font-face {
   font-family: BYekan;
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/IranYekan.eot");
-  src: url("../fonts/IranYekan.eot?#iefix") format("embedded-opentype"),
-    /* IE6-8 */ url("../fonts/IranYekan.woff2") format("woff2"),
-    /* FF39+,Chrome36+, Opera24+*/ url("../fonts/IranYekan.woff") format("woff"),
-    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/IranYekan.ttf")
+  src: url("../../fonts/IranYekan.eot");
+  src: url("../../fonts/IranYekan.eot?#iefix") format("embedded-opentype"),
+    /* IE6-8 */ url("../../fonts/IranYekan.woff2") format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/ url("../../fonts/IranYekan.woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../../fonts/IranYekan.ttf")
       format("truetype");
 }
 
@@ -245,45 +245,45 @@
   font-family: IranSans;
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/IranSansWeb.eot");
-  src: url("../fonts/IranSansWebeot?#iefix") format("embedded-opentype"),
-    /* IE6-8 */ url("../fonts/IranSansWeb.woff2") format("woff2"),
-    /* FF39+,Chrome36+, Opera24+*/ url("../fonts/IranSansWeb.woff")
+  src: url("../../fonts/IranSansWeb.eot");
+  src: url("../../fonts/IranSansWebeot?#iefix") format("embedded-opentype"),
+    /* IE6-8 */ url("../../fonts/IranSansWeb.woff2") format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/ url("../../fonts/IranSansWeb.woff")
       format("woff"),
-    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/IranSansWeb.ttf")
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../../fonts/IranSansWeb.ttf")
       format("truetype");
 }
 
 @font-face {
   font-family: cinema;
-  src: url("../fonts/Cinema-Full.ttf") format("ttf");
+  src: url("../../fonts/Cinema-Full.ttf") format("ttf");
 }
 
 @font-face {
   font-family: Loew;
-  src: url("../fonts/Loew.otf") format("otf"),
-    url("../fonts/Loew-black.otf") format("otf"),
-    url("../fonts/Loew-ExtraBold.otf") format("otf"),
-    url("../fonts/Loew-Heavy.otf") format("otf"),
-    url("../fonts/Loew-Light.otf") format("otf"),
-    url("../fonts/Loew-Medium.otf") format("otf"),
-    url("../fonts/Loew-Next.otf") format("otf"),
-    url("../fonts/Loew-Thin.otf") format("otf"), url("../fonts/") format("otf");
+  src: url("../../fonts/Loew.otf") format("otf"),
+    url("../../fonts/Loew-black.otf") format("otf"),
+    url("../../fonts/Loew-ExtraBold.otf") format("otf"),
+    url("../../fonts/Loew-Heavy.otf") format("otf"),
+    url("../../fonts/Loew-Light.otf") format("otf"),
+    url("../../fonts/Loew-Medium.otf") format("otf"),
+    url("../../fonts/Loew-Next.otf") format("otf"),
+    url("../../fonts/Loew-Thin.otf") format("otf"), url("../../fonts/") format("otf");
 }
 
 @font-face {
   font-family: Vazir;
-  src: url("../fonts/Vazir-Bold-FD-WOL.ttf") format("ttf"),
-    url("../fonts/Vazir-FD-WOL.ttf") format("ttf"),
-    url("../fonts/Vazir-Light-FD-WOL.ttf") format("ttf"),
-    url("../fonts/Vazir-Medium-FD-WOL.ttf") format("ttf"),
-    url("../fonts/Vazir-Thin-FD-WOL.ttf") format("ttf"),
-    url("../fonts/Vazir-Thin-FD-WOL.ttf") format("ttf");
+  src: url("../../fonts/Vazir-Bold-FD-WOL.ttf") format("ttf"),
+    url("../../fonts/Vazir-FD-WOL.ttf") format("ttf"),
+    url("../../fonts/Vazir-Light-FD-WOL.ttf") format("ttf"),
+    url("../../fonts/Vazir-Medium-FD-WOL.ttf") format("ttf"),
+    url("../../fonts/Vazir-Thin-FD-WOL.ttf") format("ttf"),
+    url("../../fonts/Vazir-Thin-FD-WOL.ttf") format("ttf");
 }
 
 @font-face {
   font-family: BNazanin;
-  src: url("../fonts/B_nazanin.ttf") format("ttf");
+  src: url("../../fonts/B_nazanin.ttf") format("ttf");
 }
 
 /*** theme style ***/
@@ -299,8 +299,8 @@ body {
   min-height: 100vh;
   font-family: IranSans;
   overflow-x: hidden;
-  direction: rtl;
-  background: url(../img/art-bg.png);
+  direction: ltr;
+  background: url(../../img/art-bg.png);
 }
 
 body > form {
@@ -458,19 +458,19 @@ body > form > main > div.table-class {
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
-  text-align: right;
+  text-align: left;
   order: 0;
   width: calc(100% - 40px);
   background-color: #fff;
 }
 
 .dp-search .headerSearchTextBox::placeholder {
-  text-align: right;
+  text-align: left;
 }
 
 .headerSearchTextBox::-webkit-input-placeholder {
   color: #000;
-  text-align: right;
+  text-align: left;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -675,7 +675,7 @@ ul.nav-bar-tool.changeLanguage {
 }
 
 ul.nav-bar-tool.changeLanguage > li.dropdown > ul {
-  right: -100%;
+  left: -100%;
   /* margin-top: 10px !important; */
   min-width: 20px !important;
   width: 120px;
@@ -693,6 +693,7 @@ ul.nav-bar-tool.changeLanguage > li.dropdown > ul li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row-reverse;
 }
 
 ul.nav-bar-tool {
@@ -990,7 +991,7 @@ ul.nav-bar-tool {
 }
 [data-bs-theme="dark"] #aboutUsSection {
   background: linear-gradient(45deg, black, transparent),
-    url(../img/aboutUsBg.png);
+    url(../../img/aboutUsBg.png);
   background-size: 100% 100%;
 }
 
@@ -1138,7 +1139,7 @@ ul.nav-bar-tool {
 
 #RoomsofHotelSection .desc div {
   color: #ffffff;
-  text-align: right;
+  text-align: left;
   font-weight: 700;
   font-size: 20px;
 }
@@ -1237,7 +1238,7 @@ ul.nav-bar-tool {
 }
 
 #RoomsofHotelSection .swiper-slide .hoverCard div {
-  text-align: right;
+  text-align: left;
 }
 
 #RoomsofHotelSection .swiper-slide .hoverCard .name {
@@ -1360,7 +1361,7 @@ ul.nav-bar-tool {
 
 .sallonsSection .cardContainer {
   justify-content: space-between;
-  text-align: right;
+  text-align: left;
   flex-wrap: wrap;
 }
 
@@ -1552,16 +1553,16 @@ ul.nav-bar-tool {
   opacity: 1;
   position: relative;
   z-index: 0;
-  text-align: right;
+  text-align: left;
 }
 #guest .row {
   padding: 0 20px;
   position: relative;
 }
 #guests .swiper-slide .desc {
-  transform: translateX(150%);
+  transform: translateX(-150%);
   position: absolute;
-  width: 80%;
+  width: 68%;
   left: 0;
   display: flex;
   flex-direction: column;
@@ -1578,11 +1579,11 @@ ul.nav-bar-tool {
   font-size: 16px;
   font-weight: 400;
   font-family: "Abar vf";
-  color: var(--main-color);
+  color: var(--mian-color);
 }
 #guests .swiper-button-next {
   position: absolute;
-  left: 0;
+  right: 0;
   top: 50%;
   justify-content: end;
   align-items: center;
@@ -1594,7 +1595,7 @@ ul.nav-bar-tool {
 }
 #guests .swiper-button-prev {
   position: absolute;
-  right: 0;
+  left: 0;
   top: 50%;
   justify-content: start;
   align-items: center;
