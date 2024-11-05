@@ -749,6 +749,7 @@ ul.nav-bar-tool {
 /*** slider carousel ***/
 .carousel-item img {
   height: 800px;
+  object-fit: cover;
 }
 
 .carousel button {
@@ -1163,6 +1164,7 @@ ul.nav-bar-tool {
   width: 100%;
   position: relative;
   z-index: 0;
+  height: 100%;
 }
 
 #RoomsofHotelSection .roomsImg:after {
